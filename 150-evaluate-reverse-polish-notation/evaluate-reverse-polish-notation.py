@@ -1,4 +1,12 @@
 class Solution:
+    def resolves(self, a, b, Operator):
+        if Operator == '+':
+            return a + b
+        elif Operator == '-':
+            return a - b
+        elif Operator == '*':
+            return a * b
+        return int(a / b)
     def evalRPN(self, tokens: List[str]) -> int:
         operator = set(["*", "-", "+", "/"])
         stack = []
@@ -6,9 +14,7 @@ class Solution:
             if i in operator:
                 a = stack.pop()
                 b = stack.pop()
-                stack.append(str(int(eval(b+i+a))))
+                stack.append(self.resolves(b, a, i))
             else:
-                stack.append(i)
-        print(stack)
-        res = round(float(stack[0]))
-        return res
+                stack.append(int(i))
+        return stack[0]
