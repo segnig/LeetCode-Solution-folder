@@ -34,4 +34,12 @@ Happy coding!
 |  |
 | ------- |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+## Math
+|  |
+| ------- |
+| [2645-pass-the-pillow](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2645-pass-the-pillow) |
+## Simulation
+|  |
+| ------- |
+| [2645-pass-the-pillow](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2645-pass-the-pillow) |
 <!---LeetCode Topics End-->
