@@ -44,11 +44,13 @@ Happy coding!
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1642-water-bottles) |
+| [1803-average-waiting-time](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2645-pass-the-pillow) |
 ## Array
 |  |
 | ------- |
+| [1803-average-waiting-time](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Recursion
 |  |
