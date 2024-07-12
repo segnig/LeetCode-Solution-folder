@@ -77,4 +77,8 @@ Happy coding!
 |  |
 | ------- |
 | [1818-maximum-score-from-removing-substrings](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1818-maximum-score-from-removing-substrings) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
