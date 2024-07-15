@@ -87,6 +87,7 @@ Happy coding!
 | ------- |
 | [0175-combine-two-tables](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0175-combine-two-tables) |
 | [0176-second-highest-salary](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0176-second-highest-salary) |
+| [1908-recyclable-and-low-fat-products](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1908-recyclable-and-low-fat-products) |
 ## Sorting
 |  |
 | ------- |
