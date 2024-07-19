@@ -53,6 +53,7 @@ Happy coding!
 ## Array
 |  |
 | ------- |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1720-crawler-log-folder](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1720-crawler-log-folder) |
 | [1803-average-waiting-time](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -115,4 +116,8 @@ Happy coding!
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2306-create-binary-tree-from-descriptions) |
+## Matrix
+|  |
+| ------- |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1496-lucky-numbers-in-a-matrix) |
 <!---LeetCode Topics End-->
