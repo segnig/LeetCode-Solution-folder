@@ -101,6 +101,7 @@ Happy coding!
 | [0180-consecutive-numbers](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0180-consecutive-numbers) |
 | [0181-employees-earning-more-than-their-managers](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0181-employees-earning-more-than-their-managers) |
 | [0182-duplicate-emails](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0182-duplicate-emails) |
+| [0196-delete-duplicate-emails](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0196-delete-duplicate-emails) |
 | [1908-recyclable-and-low-fat-products](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1908-recyclable-and-low-fat-products) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 ## Sorting
