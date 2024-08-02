@@ -60,6 +60,7 @@ Happy coding!
 | [1741-sort-array-by-increasing-frequency](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1803-average-waiting-time](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2502-sort-the-people) |
 | [2846-robot-collisions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2846-robot-collisions) |
@@ -161,4 +162,8 @@ Happy coding!
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0948-sort-an-array) |
+## Sliding Window
+|  |
+| ------- |
+| [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 <!---LeetCode Topics End-->
