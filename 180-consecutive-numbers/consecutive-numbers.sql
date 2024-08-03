@@ -1,3 +1,4 @@
+-- Write your PostgreSQL query statement below
 Select distinct a.num ConsecutiveNums
 from logs a, logs b, logs c
 
