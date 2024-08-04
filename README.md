@@ -107,6 +107,7 @@ Happy coding!
 | [0584-find-customer-referee](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0595-big-countries) |
 | [1179-game-play-analysis-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1179-game-play-analysis-i) |
+| [1327-last-person-to-fit-in-the-bus](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1327-last-person-to-fit-in-the-bus) |
 | [1908-recyclable-and-low-fat-products](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1908-recyclable-and-low-fat-products) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
 ## Sorting
