@@ -108,6 +108,7 @@ Happy coding!
 | [0196-delete-duplicate-emails](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0196-delete-duplicate-emails) |
 | [0584-find-customer-referee](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0595-big-countries) |
+| [0626-exchange-seats](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0626-exchange-seats) |
 | [1179-game-play-analysis-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1179-game-play-analysis-i) |
 | [1327-last-person-to-fit-in-the-bus](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1327-last-person-to-fit-in-the-bus) |
 | [1908-recyclable-and-low-fat-products](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1908-recyclable-and-low-fat-products) |
