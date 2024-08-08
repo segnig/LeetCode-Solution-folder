@@ -1,3 +1,7 @@
-# Write your MySQL query statement below
-Delete per1 from Person per1, Person per2
-Where per1.email = per2.email and per1.id > per2.id;
+DELETE FROM Person  
+WHERE id IN (  
+    SELECT per1.id  
+    FROM Person per1  
+    JOIN Person per2 ON per1.email = per2.email  
+    WHERE per1.id > per2.id  
+);
