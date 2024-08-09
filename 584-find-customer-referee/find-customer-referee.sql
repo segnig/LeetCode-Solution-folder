@@ -1,3 +1,4 @@
-# Write your MySQL query statement below
-Select name from Customer
-Where referee_id != 2 or referee_id is null;
+-- Write your PostgreSQL query statement below
+Select name 
+from Customer 
+    where referee_id != 2 or referee_id is null
