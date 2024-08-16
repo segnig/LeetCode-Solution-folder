@@ -112,6 +112,7 @@ Happy coding!
 | [0182-duplicate-emails](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0182-duplicate-emails) |
 | [0196-delete-duplicate-emails](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0196-delete-duplicate-emails) |
 | [0584-find-customer-referee](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0584-find-customer-referee) |
+| [0586-customer-placing-the-largest-number-of-orders](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0586-customer-placing-the-largest-number-of-orders) |
 | [0595-big-countries](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0595-big-countries) |
 | [0626-exchange-seats](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0626-exchange-seats) |
 | [1179-game-play-analysis-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1179-game-play-analysis-i) |
