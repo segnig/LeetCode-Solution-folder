@@ -41,6 +41,7 @@ Happy coding!
 | ------- |
 | [0273-integer-to-english-words](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0273-integer-to-english-words) |
 | [0537-complex-number-multiplication](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0537-complex-number-multiplication) |
+| [0888-mirror-reflection](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0888-mirror-reflection) |
 | [1642-water-bottles](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2645-pass-the-pillow) |
@@ -205,4 +206,12 @@ Happy coding!
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0045-jump-game-ii) |
+## Geometry
+|  |
+| ------- |
+| [0888-mirror-reflection](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0888-mirror-reflection) |
+## Number Theory
+|  |
+| ------- |
+| [0888-mirror-reflection](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0888-mirror-reflection) |
 <!---LeetCode Topics End-->
