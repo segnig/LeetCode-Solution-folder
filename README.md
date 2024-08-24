@@ -214,4 +214,8 @@ Happy coding!
 |  |
 | ------- |
 | [0888-mirror-reflection](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0888-mirror-reflection) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0476-number-complement](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0476-number-complement) |
 <!---LeetCode Topics End-->
