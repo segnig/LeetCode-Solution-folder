@@ -70,6 +70,7 @@ Happy coding!
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2502-sort-the-people) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2846-robot-collisions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2846-robot-collisions) |
 ## Recursion
 |  |
@@ -218,4 +219,9 @@ Happy coding!
 |  |
 | ------- |
 | [0476-number-complement](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0476-number-complement) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Brainteaser
+|  |
+| ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 <!---LeetCode Topics End-->
