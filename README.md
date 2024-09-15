@@ -72,6 +72,7 @@ Happy coding!
 | [2502-sort-the-people](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2846-robot-collisions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2846-robot-collisions) |
+| [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Recursion
 |  |
 | ------- |
@@ -165,6 +166,7 @@ Happy coding!
 |  |
 | ------- |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -199,6 +201,7 @@ Happy coding!
 |  |
 | ------- |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Binary Search
 |  |
 | ------- |
