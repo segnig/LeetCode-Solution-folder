@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i">3526. Minimum Number of Flips to Make Binary Grid Palindromic I</a></h2><h3>Medium</h3><hr><p>You are given an <code>m x n</code> binary matrix <code>grid</code>.</p>
+<h2><a href="https://leetcode.com/problems/minimum-number-of-flips-to-make-binary-grid-palindromic-i">Minimum Number of Flips to Make Binary Grid Palindromic I</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given an <code>m x n</code> binary matrix <code>grid</code>.</p>
 
 <p>A row or column is considered <strong>palindromic</strong> if its values read the same forward and backward.</p>
 
