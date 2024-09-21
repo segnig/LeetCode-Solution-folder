@@ -85,6 +85,7 @@ Happy coding!
 ## String
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0187-repeated-dna-sequences) |
 | [0273-integer-to-english-words](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0273-integer-to-english-words) |
 | [0537-complex-number-multiplication](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0537-complex-number-multiplication) |
 | [0726-number-of-atoms](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0726-number-of-atoms) |
@@ -144,6 +145,7 @@ Happy coding!
 ## Hash Table
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0187-repeated-dna-sequences) |
 | [0726-number-of-atoms](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0726-number-of-atoms) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -196,6 +198,7 @@ Happy coding!
 ## Sliding Window
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0187-repeated-dna-sequences) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Two Pointers
 |  |
@@ -221,10 +224,19 @@ Happy coding!
 ## Bit Manipulation
 |  |
 | ------- |
+| [0187-repeated-dna-sequences](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0187-repeated-dna-sequences) |
 | [0476-number-complement](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0476-number-complement) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 ## Brainteaser
 |  |
 | ------- |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+## Rolling Hash
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0187-repeated-dna-sequences) |
+## Hash Function
+|  |
+| ------- |
+| [0187-repeated-dna-sequences](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0187-repeated-dna-sequences) |
 <!---LeetCode Topics End-->
