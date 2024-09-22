@@ -90,6 +90,7 @@ Happy coding!
 | [0537-complex-number-multiplication](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0537-complex-number-multiplication) |
 | [0726-number-of-atoms](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0726-number-of-atoms) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1720-crawler-log-folder](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -147,6 +148,7 @@ Happy coding!
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0187-repeated-dna-sequences) |
 | [0726-number-of-atoms](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0726-number-of-atoms) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -199,6 +201,7 @@ Happy coding!
 |  |
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0187-repeated-dna-sequences) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 ## Two Pointers
 |  |
