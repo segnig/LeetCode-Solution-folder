@@ -72,6 +72,7 @@ Happy coding!
 | [2306-create-binary-tree-from-descriptions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2846-robot-collisions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2846-robot-collisions) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Recursion
@@ -143,6 +144,7 @@ Happy coding!
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2502-sort-the-people](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2502-sort-the-people) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2846-robot-collisions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2846-robot-collisions) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Hash Table
@@ -156,6 +158,7 @@ Happy coding!
 | [2163-kth-distinct-string-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2502-sort-the-people) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Tree
 |  |
@@ -210,6 +213,7 @@ Happy coding!
 |  |
 | ------- |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Binary Search
 |  |
