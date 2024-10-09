@@ -59,6 +59,7 @@ Happy coding!
 |  |
 | ------- |
 | [0045-jump-game-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0045-jump-game-ii) |
+| [0075-sort-colors](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0075-sort-colors) |
 | [0948-sort-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0948-sort-an-array) |
 | [1256-rank-transform-of-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1333-sort-the-jumbled-numbers) |
@@ -140,6 +141,7 @@ Happy coding!
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0075-sort-colors) |
 | [0726-number-of-atoms](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0726-number-of-atoms) |
 | [0948-sort-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0948-sort-an-array) |
 | [1256-rank-transform-of-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1256-rank-transform-of-an-array) |
@@ -215,6 +217,7 @@ Happy coding!
 ## Two Pointers
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0075-sort-colors) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
