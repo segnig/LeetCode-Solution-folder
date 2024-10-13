@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/matrix-block-sum">1242. Matrix Block Sum</a></h2><h3>Medium</h3><hr><p>Given a <code>m x n</code> matrix <code>mat</code> and an integer <code>k</code>, return <em>a matrix</em> <code>answer</code> <em>where each</em> <code>answer[i][j]</code> <em>is the sum of all elements</em> <code>mat[r][c]</code> <em>for</em>:</p>
+<h2><a href="https://leetcode.com/problems/matrix-block-sum">Matrix Block Sum</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a <code>m x n</code> matrix <code>mat</code> and an integer <code>k</code>, return <em>a matrix</em> <code>answer</code> <em>where each</em> <code>answer[i][j]</code> <em>is the sum of all elements</em> <code>mat[r][c]</code> <em>for</em>:</p>
 
 <ul>
 	<li><code>i - k &lt;= r &lt;= i + k,</code></li>
