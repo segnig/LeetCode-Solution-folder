@@ -102,6 +102,7 @@ Happy coding!
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2502-sort-the-people](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2502-sort-the-people) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3195-separate-black-and-white-balls](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Stack
 |  |
@@ -117,6 +118,7 @@ Happy coding!
 | ------- |
 | [0045-jump-game-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0045-jump-game-ii) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1818-maximum-score-from-removing-substrings) |
+| [3195-separate-black-and-white-balls](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3195-separate-black-and-white-balls) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Database
 |  |
@@ -222,6 +224,7 @@ Happy coding!
 | [0075-sort-colors](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0075-sort-colors) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [3195-separate-black-and-white-balls](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3195-separate-black-and-white-balls) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Binary Search
 |  |
