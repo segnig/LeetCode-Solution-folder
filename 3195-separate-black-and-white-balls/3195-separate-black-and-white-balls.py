@@ -4,7 +4,6 @@ class Solution(object):
 
         for i in range(len(s) - 1, -1, -1):
             if s[i] == "1":
-                print("here")
                 result += len(s) - i - placed - 1
                 placed += 1
         return result
