@@ -43,6 +43,7 @@ Happy coding!
 | [0537-complex-number-multiplication](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0537-complex-number-multiplication) |
 | [0888-mirror-reflection](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0888-mirror-reflection) |
 | [1642-water-bottles](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1642-water-bottles) |
+| [1817-calculate-money-in-leetcode-bank](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2645-pass-the-pillow) |
 ## Simulation
