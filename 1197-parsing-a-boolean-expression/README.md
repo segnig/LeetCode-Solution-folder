@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/parsing-a-boolean-expression">1197. Parsing A Boolean Expression</a></h2><h3>Hard</h3><hr><p>A <strong>boolean expression</strong> is an expression that evaluates to either <code>true</code> or <code>false</code>. It can be in one of the following shapes:</p>
+<h2><a href="https://leetcode.com/problems/parsing-a-boolean-expression">Parsing A Boolean Expression</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>A <strong>boolean expression</strong> is an expression that evaluates to either <code>true</code> or <code>false</code>. It can be in one of the following shapes:</p>
 
 <ul>
 	<li><code>&#39;t&#39;</code> that evaluates to <code>true</code>.</li>
