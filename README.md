@@ -83,6 +83,7 @@ Happy coding!
 |  |
 | ------- |
 | [0273-integer-to-english-words](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0273-integer-to-english-words) |
+| [1197-parsing-a-boolean-expression](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1197-parsing-a-boolean-expression) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
@@ -95,6 +96,7 @@ Happy coding!
 | [0273-integer-to-english-words](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0273-integer-to-english-words) |
 | [0537-complex-number-multiplication](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0537-complex-number-multiplication) |
 | [0726-number-of-atoms](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0726-number-of-atoms) |
+| [1197-parsing-a-boolean-expression](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1720-crawler-log-folder](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1720-crawler-log-folder) |
@@ -111,6 +113,7 @@ Happy coding!
 |  |
 | ------- |
 | [0726-number-of-atoms](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0726-number-of-atoms) |
+| [1197-parsing-a-boolean-expression](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1720-crawler-log-folder](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1818-maximum-score-from-removing-substrings) |
