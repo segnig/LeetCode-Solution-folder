@@ -78,6 +78,7 @@ Happy coding!
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2846-robot-collisions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2846-robot-collisions) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Recursion
 |  |
@@ -174,6 +175,7 @@ Happy coding!
 | [2306-create-binary-tree-from-descriptions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2502-sort-the-people) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Tree
 |  |
@@ -227,6 +229,7 @@ Happy coding!
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2856-count-complete-subarrays-in-an-array) |
 ## Two Pointers
 |  |
 | ------- |
