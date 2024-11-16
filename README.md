@@ -80,6 +80,7 @@ Happy coding!
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2846-robot-collisions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2846-robot-collisions) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Recursion
 |  |
@@ -234,6 +235,7 @@ Happy coding!
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Two Pointers
 |  |
 | ------- |
