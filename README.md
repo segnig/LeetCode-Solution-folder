@@ -70,6 +70,7 @@ Happy coding!
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1720-crawler-log-folder](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1720-crawler-log-folder) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1755-defuse-the-bomb](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1755-defuse-the-bomb) |
 | [1803-average-waiting-time](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -231,6 +232,7 @@ Happy coding!
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0187-repeated-dna-sequences) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1755-defuse-the-bomb](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1755-defuse-the-bomb) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
