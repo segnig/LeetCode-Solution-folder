@@ -78,6 +78,7 @@ Happy coding!
 | [2306-create-binary-tree-from-descriptions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2846-robot-collisions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2846-robot-collisions) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -179,6 +180,7 @@ Happy coding!
 | [2177-check-whether-two-strings-are-almost-equivalent](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2177-check-whether-two-strings-are-almost-equivalent) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2502-sort-the-people) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -236,6 +238,7 @@ Happy coding!
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Two Pointers
