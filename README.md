@@ -62,6 +62,7 @@ Happy coding!
 | [0045-jump-game-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0045-jump-game-ii) |
 | [0075-sort-colors](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0075-sort-colors) |
 | [0413-arithmetic-slices](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0413-arithmetic-slices) |
+| [0658-find-k-closest-elements](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0658-find-k-closest-elements) |
 | [0948-sort-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0948-sort-an-array) |
 | [1242-matrix-block-sum](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1242-matrix-block-sum) |
 | [1256-rank-transform-of-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1256-rank-transform-of-an-array) |
@@ -159,6 +160,7 @@ Happy coding!
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0075-sort-colors) |
+| [0658-find-k-closest-elements](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0658-find-k-closest-elements) |
 | [0726-number-of-atoms](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0726-number-of-atoms) |
 | [0948-sort-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0948-sort-an-array) |
 | [1256-rank-transform-of-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1256-rank-transform-of-an-array) |
@@ -210,6 +212,7 @@ Happy coding!
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0658-find-k-closest-elements](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0658-find-k-closest-elements) |
 | [0948-sort-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0948-sort-an-array) |
 ## Merge Sort
 |  |
@@ -235,6 +238,7 @@ Happy coding!
 | ------- |
 | [0187-repeated-dna-sequences](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0187-repeated-dna-sequences) |
 | [0413-arithmetic-slices](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0413-arithmetic-slices) |
+| [0658-find-k-closest-elements](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0658-find-k-closest-elements) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1755-defuse-the-bomb](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1755-defuse-the-bomb) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2134-maximize-the-confusion-of-an-exam) |
@@ -247,6 +251,7 @@ Happy coding!
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0075-sort-colors) |
+| [0658-find-k-closest-elements](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0658-find-k-closest-elements) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
@@ -255,6 +260,7 @@ Happy coding!
 ## Binary Search
 |  |
 | ------- |
+| [0658-find-k-closest-elements](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0658-find-k-closest-elements) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2134-maximize-the-confusion-of-an-exam) |
