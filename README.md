@@ -68,6 +68,7 @@ Happy coding!
 | [1256-rank-transform-of-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1720-crawler-log-folder](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1720-crawler-log-folder) |
@@ -240,6 +241,7 @@ Happy coding!
 | [0413-arithmetic-slices](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0413-arithmetic-slices) |
 | [0658-find-k-closest-elements](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0658-find-k-closest-elements) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1755-defuse-the-bomb](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1755-defuse-the-bomb) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2134-maximize-the-confusion-of-an-exam) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
@@ -269,6 +271,7 @@ Happy coding!
 | ------- |
 | [0045-jump-game-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0045-jump-game-ii) |
 | [0413-arithmetic-slices](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0413-arithmetic-slices) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Geometry
 |  |
 | ------- |
