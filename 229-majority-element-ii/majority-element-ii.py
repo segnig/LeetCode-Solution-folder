@@ -6,7 +6,6 @@ class Solution:
 
         nums = Counter(nums)
         target = N / 3
-
         result = [v for v, c in nums.items() if c > target]
 
         return result
