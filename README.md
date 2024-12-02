@@ -42,6 +42,7 @@ Happy coding!
 | [0273-integer-to-english-words](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0273-integer-to-english-words) |
 | [0537-complex-number-multiplication](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0537-complex-number-multiplication) |
 | [0888-mirror-reflection](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0888-mirror-reflection) |
+| [1370-count-number-of-nice-subarrays](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1370-count-number-of-nice-subarrays) |
 | [1642-water-bottles](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1642-water-bottles) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1951-find-the-winner-of-the-circular-game) |
@@ -67,6 +68,7 @@ Happy coding!
 | [1242-matrix-block-sum](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1242-matrix-block-sum) |
 | [1256-rank-transform-of-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1256-rank-transform-of-an-array) |
 | [1333-sort-the-jumbled-numbers](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1333-sort-the-jumbled-numbers) |
+| [1370-count-number-of-nice-subarrays](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1370-count-number-of-nice-subarrays) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1615-range-sum-of-sorted-subarray-sums) |
@@ -178,6 +180,7 @@ Happy coding!
 | [0187-repeated-dna-sequences](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0187-repeated-dna-sequences) |
 | [0726-number-of-atoms](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0726-number-of-atoms) |
 | [1256-rank-transform-of-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1256-rank-transform-of-an-array) |
+| [1370-count-number-of-nice-subarrays](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -240,6 +243,7 @@ Happy coding!
 | [0187-repeated-dna-sequences](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0187-repeated-dna-sequences) |
 | [0413-arithmetic-slices](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0413-arithmetic-slices) |
 | [0658-find-k-closest-elements](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0658-find-k-closest-elements) |
+| [1370-count-number-of-nice-subarrays](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1755-defuse-the-bomb](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1755-defuse-the-bomb) |
@@ -302,6 +306,7 @@ Happy coding!
 |  |
 | ------- |
 | [1242-matrix-block-sum](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1242-matrix-block-sum) |
+| [1370-count-number-of-nice-subarrays](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1370-count-number-of-nice-subarrays) |
 | [2134-maximize-the-confusion-of-an-exam](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2134-maximize-the-confusion-of-an-exam) |
 ## Monotonic Stack
 |  |
