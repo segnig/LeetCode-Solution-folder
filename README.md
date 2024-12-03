@@ -54,6 +54,7 @@ Happy coding!
 | [1642-water-bottles](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1642-water-bottles) |
 | [1803-average-waiting-time](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2232-adding-spaces-to-a-string](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2232-adding-spaces-to-a-string) |
 | [2645-pass-the-pillow](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2645-pass-the-pillow) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [2846-robot-collisions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2846-robot-collisions) |
@@ -79,6 +80,7 @@ Happy coding!
 | [1803-average-waiting-time](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1803-average-waiting-time) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2232-adding-spaces-to-a-string](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2232-adding-spaces-to-a-string) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2502-sort-the-people) |
@@ -115,6 +117,7 @@ Happy coding!
 | [2163-kth-distinct-string-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2177-check-whether-two-strings-are-almost-equivalent](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2177-check-whether-two-strings-are-almost-equivalent) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+| [2232-adding-spaces-to-a-string](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2232-adding-spaces-to-a-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2502-sort-the-people](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2502-sort-the-people) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -260,6 +263,7 @@ Happy coding!
 | [0658-find-k-closest-elements](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0658-find-k-closest-elements) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
+| [2232-adding-spaces-to-a-string](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2232-adding-spaces-to-a-string) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [3195-separate-black-and-white-balls](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3195-separate-black-and-white-balls) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
