@@ -119,6 +119,7 @@ Happy coding!
 | [2177-check-whether-two-strings-are-almost-equivalent](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2177-check-whether-two-strings-are-almost-equivalent) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2232-adding-spaces-to-a-string](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2232-adding-spaces-to-a-string) |
+| [2414-move-pieces-to-obtain-a-string](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2502-sort-the-people](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2502-sort-the-people) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2800-minimum-string-length-after-removing-substrings) |
@@ -267,6 +268,7 @@ Happy coding!
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2232-adding-spaces-to-a-string](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2232-adding-spaces-to-a-string) |
+| [2414-move-pieces-to-obtain-a-string](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3195-separate-black-and-white-balls](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3195-separate-black-and-white-balls) |
