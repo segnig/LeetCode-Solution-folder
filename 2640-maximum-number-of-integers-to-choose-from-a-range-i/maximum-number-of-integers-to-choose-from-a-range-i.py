@@ -5,7 +5,7 @@ class Solution(object):
 
         count = 0 
         result = 0 
-        l = 1 
+        l = 1
 
         for n in banned:
             if n > m:
