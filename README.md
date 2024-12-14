@@ -92,6 +92,7 @@ Happy coding!
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2846-robot-collisions](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2846-robot-collisions) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [2868-continuous-subarrays](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2868-continuous-subarrays) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3526-minimum-number-of-flips-to-make-binary-grid-palindromic-i) |
 ## Recursion
@@ -104,6 +105,7 @@ Happy coding!
 |  |
 | ------- |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1951-find-the-winner-of-the-circular-game) |
+| [2868-continuous-subarrays](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2868-continuous-subarrays) |
 ## String
 |  |
 | ------- |
@@ -232,6 +234,7 @@ Happy coding!
 | ------- |
 | [0658-find-k-closest-elements](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0658-find-k-closest-elements) |
 | [0948-sort-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0948-sort-an-array) |
+| [2868-continuous-subarrays](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2868-continuous-subarrays) |
 ## Merge Sort
 |  |
 | ------- |
@@ -266,6 +269,7 @@ Happy coding!
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2856-count-complete-subarrays-in-an-array) |
+| [2868-continuous-subarrays](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2868-continuous-subarrays) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/segnig/LeetCode-Solution-folder/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Two Pointers
 |  |
@@ -338,4 +342,9 @@ Happy coding!
 |  |
 | ------- |
 | [0456-132-pattern](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0456-132-pattern) |
+| [2868-continuous-subarrays](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2868-continuous-subarrays) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2868-continuous-subarrays](https://github.com/segnig/LeetCode-Solution-folder/tree/master/2868-continuous-subarrays) |
 <!---LeetCode Topics End-->
