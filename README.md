@@ -73,6 +73,7 @@ Happy coding!
 | [1333-sort-the-jumbled-numbers](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1333-sort-the-jumbled-numbers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1370-count-number-of-nice-subarrays) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
@@ -137,6 +138,7 @@ Happy coding!
 | [0726-number-of-atoms](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0726-number-of-atoms) |
 | [1197-parsing-a-boolean-expression](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1720-crawler-log-folder](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1720-crawler-log-folder) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -337,6 +339,7 @@ Happy coding!
 |  |
 | ------- |
 | [0456-132-pattern](https://github.com/segnig/LeetCode-Solution-folder/tree/master/0456-132-pattern) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/segnig/LeetCode-Solution-folder/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 ## Ordered Set
 |  |
