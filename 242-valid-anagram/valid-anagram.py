@@ -1,11 +1,13 @@
-class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
+class Solution(object):
+    def isAnagram(self, s, t):
         if len(s) != len(t):
             return False
-        t_counter = Counter(t)
-        s_counter = Counter(s)
 
-        for k in t_counter:
-            if k not in s_counter or t_counter[k] != s_counter[k]:
+        s_counter = Counter(s)
+        t_counter = Counter(t)
+
+        for char in s_counter:
+            if s_counter[char] != t_counter[char]:
                 return False
-        return True
+
+        return True      
