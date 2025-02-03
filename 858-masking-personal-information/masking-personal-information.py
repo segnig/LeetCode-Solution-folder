@@ -1,5 +1,5 @@
 class Solution:
-    def maskPII(self, s: str) -> str:
+    def maskPII(self, s):
         if "@" in s:
             email = s.split("@")
             domain = email[-1].split(".")
