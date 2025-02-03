@@ -5,25 +5,28 @@ class Solution(object):
         current_line = []
         
         for line in source:
-            i = 0
-            while i < len(line):
+            idx = 0
+            while idx < len(line):
+                # if not in block comment
                 if not in_block_comment:
-                    if i + 1 < len(line) and line[i:i + 2] == "//":
+                    if idx + 1 < len(line) and line[idx:idx + 2] == "//":
                         break
 
-                    elif i + 1 < len(line) and line[i:i + 2] == "/*":
+                    elif idx + 1 < len(line) and line[idx:idx + 2] == "/*":
                         in_block_comment = True
-                        i += 1  
+                        idx += 1
                     else:
-                        current_line.append(line[i])
-                else: 
-                    if i + 1 < len(line) and line[i:i + 2] == "*/":
+                        current_line.append(line[idx])
+                        
+                # if in block comment
+                else:
+                    if idx + 1 < len(line) and line[idx:idx + 2] == "*/":
                         in_block_comment = False
-                        i += 1  
-                i += 1
+                        idx += 1
+                idx += 1
             
             if not in_block_comment and current_line:
                 result.append("".join(current_line))
-                current_line = [] 
+                current_line = []
         
         return result
