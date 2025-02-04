@@ -1,10 +1,12 @@
-class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        def_dict = defaultdict(int)
-        for num in nums:
-            def_dict[num] += 1
-        def_dict = sorted(def_dict.items(), reverse=True, key=lambda x: x[1])
-        print(def_dict)
-        result = [k[0] for k in def_dict[:k]]
+class Solution(object):
+    def topKFrequent(self, nums, k):
+        sort_feq = [(f, n) for n, f in Counter(nums).items()]
+
+        sort_feq.sort(reverse=True)
+
+        result = []
+        for i in range(k):
+            result.append(sort_feq[i][1])
+
         return result
         
