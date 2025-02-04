@@ -1,5 +1,6 @@
-class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
+class Solution(object):
+    def majorityElement(self, nums):
+        
         count = Counter(nums)
         res = 0
         cur = 0
@@ -9,5 +10,4 @@ class Solution:
                 res = count[h]
                 cur = h
         return cur
-
         
