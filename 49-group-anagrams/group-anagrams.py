@@ -1,12 +1,17 @@
-class Solution:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        def_dict = defaultdict(list)
+class Solution(object):
+    def groupAnagrams(self, strs):
+
+        pair_anagrams = defaultdict(list)
+
         for word in strs:
-            w = word
-            word = list(word)
-            word.sort()
-            word = str(word)
-            def_dict[word].append(w)
+            chars = list(word)
+            chars.sort()
+            chars = tuple(chars)
+
+            pair_anagrams[chars].append(word) 
+
+        result = [pair_anagrams[words] for words in pair_anagrams]
+
+        return result
         
-        res = [def_dict[rs] for rs in def_dict]
-        return res
+        
