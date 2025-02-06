@@ -1,10 +1,10 @@
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         left = 0
-        right = len(s) - 1
+        n = len(s)
 
-        while right > left:
-            s[left], s[right] = s[right], s[left]
-            left, right = left + 1, right - 1
+        while n // 2 > left:
+            s[left], s[n - 1 - left] = s[n - 1 - left], s[left]
+            left = left + 1
 
         return s
