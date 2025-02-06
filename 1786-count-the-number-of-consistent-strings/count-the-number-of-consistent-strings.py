@@ -6,7 +6,6 @@ class Solution:
         for word in words:
             if self.helper(word, allowed):
                 res += 1
-            print(word, res)
 
         return res
 
