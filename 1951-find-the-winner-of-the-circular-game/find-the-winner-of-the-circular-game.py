@@ -1,11 +1,14 @@
 class Solution:
     def findTheWinner(self, n: int, k: int) -> int:
-        friends = [j + 1 for j in range(n)]
-        h = 0
-        while len(friends) != 1:
-            h = (h + k - 1) % n
-            friends.remove(friends[h])
-            n -= 1
-        res = friends[0]
-        return res
+        arr = [i + 1 for i in range(n)]
+        index = 0
+
+        while len(arr) > 1:
+            removed_index = (index + k - 1) % len(arr)
+            index = (index + k - 1) % len(arr)
+
+            removed_element = arr[removed_index]
+            arr.remove(removed_element)
+
+        return arr[0]
         
