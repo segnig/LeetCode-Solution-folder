@@ -2,14 +2,18 @@ class Solution:
     def findRotation(self, mat: List[List[int]], target: List[List[int]]) -> bool:
         n = len(mat)
         Poss = True
-
+        
+        # for 90
         for r in range(n):
             for c in range(n):
                 if mat[r][c] != target[c][n - r - 1]:
                     Poss = False
         if Poss:
             return Poss
+
         Poss =True
+
+        # for -90
         for r in range(n):
             for c in range(n):
                 if mat[r][c] != target[n - c - 1][r]:
@@ -19,6 +23,8 @@ class Solution:
             return Poss
 
         Poss =True
+
+        # 270
         for r in range(n):
             for c in range(n):
                 if mat[r][c] != target[n - r - 1][n - c - 1]:
@@ -28,6 +34,7 @@ class Solution:
             return Poss
 
         Poss =True
+        # 360
         for r in range(n):
             for c in range(n):
                 if mat[r][c] != target[r][c]:
