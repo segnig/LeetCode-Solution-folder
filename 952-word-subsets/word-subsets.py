@@ -8,16 +8,13 @@ class Solution:
 
         result = []
         for word in words1:
-            word_counter = defaultdict(int)
-            for char in word:
-                word_counter[char] += 1
-            poss = True
+            word_counter = Counter(word)
             for char in word2_count:
                 if word_counter[char] < word2_count[char]:
-                    poss = False
-
-            if poss:
+                    break
+            else:
                 result.append(word)
+                 
 
         return result
 
