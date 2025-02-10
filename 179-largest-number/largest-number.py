@@ -1,12 +1,10 @@
 class Solution:
     def largestNumber(self, nums: List[int]) -> str:
 
-        def compare(x, y):
-            return int(y + x) - int(x + y)
-        nums = [str(num) for num in nums]
-        nums.sort(key=lambda x: x*9, reverse=True)
-
-        result = ''.join(nums)
-        result = result.lstrip('0')
-
-        return result if result else '0'
+        for i in range(len(nums) - 1):
+            for j in range(i + 1, len(nums)):
+                if int(str(nums[i]) + str(nums[j])) < int(str(nums[j]) + str(nums[i])):
+                    nums[i], nums[j] = nums[j], nums[i]
+        nums = [str(n) for n in nums]
+        return str(int("".join(nums)))
+        
