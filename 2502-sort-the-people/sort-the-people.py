@@ -3,14 +3,9 @@ class Solution:
         right = len(heights)
 
         for j in range(right):
-            max_index = j
-            for i in range(j + 1, right):
-                if heights[max_index] < heights[i]:
-                    max_index = i
-
-            heights[j], heights[max_index] = heights[max_index], heights[j]
-            names[j], names[max_index] = names[max_index], names[j]
-
-            
+            for i in range(j, 0, -1):
+                if heights[i] > heights[i - 1]:
+                    heights[i], heights[i - 1] = heights[i - 1], heights[i]
+                    names[i], names[i - 1] = names[i - 1], names[i]
 
         return names           
