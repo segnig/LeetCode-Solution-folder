@@ -8,11 +8,11 @@ class Solution:
 
         while right > 0:
             for i in range(right - 1):
-                if heights_name[i][0] > heights_name[i + 1][0]:
+                if heights_name[i][0] < heights_name[i + 1][0]:
                     heights_name[i], heights_name[i+1] = heights_name[i+1], heights_name[i]
 
             right -= 1
             
 
-        return [person[1] for person in heights_name[::-1]]            
+        return [person[1] for person in heights_name]            
 
