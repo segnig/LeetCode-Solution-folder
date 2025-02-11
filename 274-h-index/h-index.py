@@ -7,7 +7,5 @@ class Solution:
             if cite >= i + 1:
                 h = i + 1
 
-            else: return h
-
-        return h   
-        
+            else: return h  
+        return h
