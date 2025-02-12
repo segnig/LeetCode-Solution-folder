@@ -10,7 +10,6 @@ class Solution:
         answer = []
         mx = result[0]
         last_indx = -1
-        print(result)
         for index, num in enumerate(result):
             mx = max(mx, num)
             if index == mx:
