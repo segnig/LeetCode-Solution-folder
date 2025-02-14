@@ -1,11 +1,9 @@
-class Solution(object):
-    def minimumSteps(self, s):
-        placed, result, n = 0, 0, len(s)
-
-        for i in range(n - 1, -1, -1):
-            if s[i] == "1":
-                result += n - i - placed - 1
-                placed += 1
-        return result
-
-        
+class Solution:
+    def minimumSteps(self, s: str) -> int:
+        left = 0
+        res = 0
+        for right in range(len(s)):
+            if s[right] == "0":
+                res += right - left
+                left += 1
+        return res   
