@@ -1,7 +1,7 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         target = Counter(t)
-        window = defaultdict(int)
+        window = Counter()
         res = s
         left = 0
         for right in range(len(s)):
@@ -15,7 +15,4 @@ class Solution:
         return res if self.helper(target, result_counter) else ""
 
     def helper(self, target, window):
-        for char in target:
-            if window[char] < target[char]:
-                return False
-        return True
+        return target - window == Counter()
