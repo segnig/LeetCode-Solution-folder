@@ -12,18 +12,14 @@ class Solution:
 
         for i in range(len(s)):
             nums[i + 1] += nums[i]
-        print(nums)
 
         for i in range(len(s)):
             nums[i] += ord(s[i]) - ord("a")
-
 
         index_char = nums[:len(s)]
         result = ""
 
         for n in index_char:
             result += chr((26 + n)%26 + ord("a"))
-
-        print(index_char)
-
+            
         return result
