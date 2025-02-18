@@ -15,5 +15,4 @@ class Solution:
             else:
                 store[nums[i]] = i
 
-        print(store)
         return result
