@@ -6,17 +6,20 @@
 class Solution:
     def partition(self, head: Optional[ListNode], x: int) -> Optional[ListNode]:
         result = ListNode()
-        res = result
-        temp = head
-        while temp:
-            if temp.val < x:
-                res.next = ListNode(temp.val)
-                res = res.next
-            temp = temp.next
-        temp = head
-        while temp:
-            if temp.val >= x:
-                res.next = ListNode(temp.val)
-                res = res.next
-            temp = temp.next
-        return result.next
+        dummy = result
+
+        seeker = head
+        while seeker:
+            if seeker.val < x:
+                result.next = ListNode(seeker.val)
+                result = result.next
+            seeker = seeker.next
+
+        seeker = head
+        while seeker:
+            if seeker.val >= x:
+                result.next = ListNode(seeker.val)
+                result = result.next
+            seeker = seeker.next
+        
+        return dummy.next   
