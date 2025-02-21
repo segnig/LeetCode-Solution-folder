@@ -1,21 +1,18 @@
 class Solution:
     def subarraysWithKDistinct(self, nums: List[int], k: int) -> int:
-        if k == 0:
-            return 0
-        def solver(nums: List[int], k: int):
-            left, right, n = 0 , 0, len(nums)
-            res = 0
-            store = defaultdict(int)
-            while right < n:
-                store[nums[right]] += 1
-                while len(store) > k:
-                    store[nums[left]] -= 1
-                    if store[nums[left]] == 0:
-                        del store[nums[left]]
-                    left += 1
-                res  += right + 1 - left
-                right += 1
+        return self.solver(nums, k) - self.solver(nums, k - 1)  
 
-            return res
-        return solver(nums, k) - solver(nums, k - 1)
+    def solver(self, nums, k):
+        counter = defaultdict(int)
+        left, result = 0, 0
+
+        for right in range(len(nums)):
+            counter[nums[right]] += 1
+            while len(counter) > k:
+                counter[nums[left]] -= 1
+                if counter[nums[left]] == 0:
+                    del counter[nums[left]]
+                left += 1
+            result += right - left + 1
         
+        return result 
