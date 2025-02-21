@@ -22,34 +22,20 @@ class MyLinkedList:
     def addAtHead(self, val: int) -> None:
         new_node = Node(val)
         new_node.next = self.head.next
-
         self.head.next = new_node
-        self.print_node()
 
         
 
     def addAtTail(self, val: int) -> None:
         current_node = self.head
-        
         while current_node.next:
             current_node = current_node.next
         current_node.next  = Node(val)
         
 
-    
-    def print_node(self):
-        current_node = self.head.next
-        while current_node:
-            print(current_node.val, "->", end="")
-            current_node = current_node.next
-        print()
-        
-
     def addAtIndex(self, index: int, val: int) -> None:
         new_node = Node(val)
         current_node = self.head
-        
-
         while current_node and index:
             current_node = current_node.next
             index -= 1
@@ -63,13 +49,11 @@ class MyLinkedList:
     def deleteAtIndex(self, index: int) -> None:
         
         current_node = self.head
-     
         while current_node and index:
             current_node = current_node.next
             index -= 1
         if not current_node or not current_node.next:
             return
-
         current_node.next = current_node.next.next
         
 
