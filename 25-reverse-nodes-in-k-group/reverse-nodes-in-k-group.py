@@ -3,36 +3,30 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-        length = self.length(head)
-        return self.reverser(head, k, length)
+        dummy = ListNode()
+        tail = dummy 
+
+        run_node = head
+        length = 0
+        while run_node:
+            run_node = run_node.next
+            length += 1
         
-        
-    def length(self, node):
-        count = 0
-        while node:
-            count += 1
-            node = node.next
-        return count
+        while length >= k:
+            count  = 0
+            temp = None
+            while count < k:
+                new_node = ListNode(head.val)
+                new_node.next = temp
+                temp = new_node
+                head = head.next
+                count += 1
+                length -= 1
+            tail.next = temp
+            while tail.next:
+                tail = tail.next
+        tail.next = head
 
-    def reverser(self, head, k, n):
-        if k > n:
-            return head
-        curr=head
-        prev = None
-        temp = None
-        cnt=0
-
-        while curr is not None and cnt<k:
-            temp=curr.next
-            curr.next=prev
-            prev=curr
-            curr=temp
-            cnt+=1
-
-        if temp is not None:
-            head.next=self.reverser(temp, k, n-k)
-
-        return prev
+        return dummy.next
