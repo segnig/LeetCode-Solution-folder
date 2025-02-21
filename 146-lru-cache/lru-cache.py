@@ -1,13 +1,13 @@
 class Node:
-    def __init__(self, val):
+    def __init__(self, val=-1):
         self.val = val
         self.next = None 
         self.prev = None
         
 class LRUCache:
     def __init__(self, capacity: int):
-        self.head = Node(-1)
-        self.tail = Node(-1)
+        self.head = Node()
+        self.tail = Node()
         self.head.next = self.tail
         self.tail.prev = self.head
         
