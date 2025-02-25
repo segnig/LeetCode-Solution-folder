@@ -8,6 +8,12 @@ class Solution:
 
         temp = head 
         reversed_nums = None
+        fast = head
+        while fast and fast.next:
+            temp = temp.next
+            fast = fast.next.next
+        
+        
         while temp:
             new_node = ListNode(temp.val)
             new_node.next = reversed_nums
@@ -16,7 +22,7 @@ class Solution:
 
         max_twin = 0
 
-        while head and reversed_nums:
+        while reversed_nums:
             max_twin = max(max_twin, head.val + reversed_nums.val)
             head = head.next
             reversed_nums = reversed_nums.next
