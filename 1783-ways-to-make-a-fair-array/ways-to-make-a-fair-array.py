@@ -10,8 +10,6 @@ class Solution:
             else:
                 even_indexies.append(even_indexies[-1])
                 odd_indexies.append(odd_indexies[-1] + num)
-        print(even_indexies)
-        print(odd_indexies)
 
         result = 0
 
