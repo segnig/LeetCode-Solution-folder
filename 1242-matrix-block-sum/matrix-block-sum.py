@@ -1,36 +1,25 @@
-class Solution(object):  
-    def matrixBlockSum(self, mat, k):  
-        if not mat or not mat[0]:  
-            return []  
+class Solution:
+    def matrixBlockSum(self, mat: List[List[int]], k: int) -> List[List[int]]:
+        cols = len(mat[0])
+        rows = len(mat) 
+        pre_mat = [[0] * (cols + 1) for k in range(rows +1)]
 
-        row, col = len(mat), len(mat[0])  
-         
-        prefix_sum = [[0] * (col + 1) for _ in range(row + 1)]  
+        for row in range(1, len (pre_mat)):
+            for col in range(1, len (pre_mat[0])):
+                pre_mat[row][col] = mat[row-1][col-1] +  pre_mat[row][col - 1] +  pre_mat[row - 1][col] -  pre_mat[row - 1][col - 1]
 
-        for i in range(row):  
-            for j in range(col):  
-                prefix_sum[i + 1][j + 1] = (  
-                    mat[i][j]  
-                    + prefix_sum[i][j + 1]  
-                    + prefix_sum[i + 1][j]  
-                    - prefix_sum[i][j]  
-                )  
- 
-        result = [[0] * col for _ in range(row)]  
 
-        for i in range(row):  
-            for j in range(col):  
+        for r in range(len(mat)):
+            for c in range(len(mat[0])):
+                c1, r1 = max(0, c - k), max(0, r - k)
+                c2, r2 = min(col - 1, c + k), min(rows - 1, r + k)
 
-                r1 = max(0, i - k)  
-                r2 = min(row - 1, i + k)  
-                c1 = max(0, j - k)  
-                c2 = min(col - 1, j + k)  
+                r1, c1, r2, c2 = r1 + 1, c1 + 1, r2 + 1, c2 + 1
+                mat[r][c] = (
+                    pre_mat[r2][c2]
+                    - pre_mat[r1 - 1][c2]
+                    - pre_mat[r2][c1 - 1]
+                    + pre_mat[r1 - 1][c1 - 1]
+                )
 
-                result[i][j] = (  
-                    prefix_sum[r2 + 1][c2 + 1]  
-                    - prefix_sum[r1][c2 + 1]  
-                    - prefix_sum[r2 + 1][c1]  
-                    + prefix_sum[r1][c1]  
-                )  
-
-        return result
+        return mat  
