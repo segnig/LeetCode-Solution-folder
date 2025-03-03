@@ -1,24 +1,21 @@
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
-        target = Counter(p)
-        window =defaultdict(int)
-        result = []
-
-        for char in s[:len(p) -1]:
-            window[char] += 1
-
-        left = 0
-        for right in range(len(p) - 1, len(s)):
-            window[s[right]] += 1
-            if self.anagram(target, window):
-                result.append(left)
-            window[s[left]] -= 1
-            left += 1
-        return result
+        if len(p) > len(s):
+            return []
         
+        p_count = Counter(p)      
+        substring_count = Counter( s[:len(p) - 1])
+        left = 0
+        ans = []
+        for right in range(len(p) - 1, len(s)):  
+            substring_count[s[right]] += 1                
+            if substring_count == p_count:
+                ans.append(left)
+            
+            substring_count[s[left]] -= 1
+            
+            if substring_count[s[left]] == 0:
+                del substring_count[s[left]]
 
-    def anagram(self, target, window):
-        for char in target:
-            if target[char] != window[char]:
-                return False
-        return True
+            left +=1
+        return ans
