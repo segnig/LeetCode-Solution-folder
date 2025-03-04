@@ -9,14 +9,10 @@ class Solution:
                 if counters[10] > 0:
                     counters[10] -= 1
                     bill = 10
-
             if bill > 5:
                 if (bill - 5) // 5 <= counters[5]:
                     counters[5] -= (bill - 5) // 5
                 else:
                     return False
             counters[b] += 1
-
         return True
-
-        
