@@ -1,13 +1,12 @@
-class Solution(object):
-    def find132pattern(self, nums):
-        min_value = float("-inf")
+class Solution:
+    def find132pattern(self, nums: List[int]) -> bool:
+        second_num = float("-inf")
         stack = []
 
-        for num in reversed(nums):
-            if num < min_value:
+        for num in nums[::-1]:
+            if num < second_num:
                 return True
             while stack and stack[-1] < num:
-                min_value = max(min_value, stack.pop())
+                second_num = max(second_num, stack.pop())
             stack.append(num)
-
         return False
