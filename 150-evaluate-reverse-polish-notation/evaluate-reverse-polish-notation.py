@@ -1,20 +1,14 @@
 class Solution:
-    def resolves(self, a, b, Operator):
-        if Operator == '+':
-            return a + b
-        elif Operator == '-':
-            return a - b
-        elif Operator == '*':
-            return a * b
-        return int(a / b)
     def evalRPN(self, tokens: List[str]) -> int:
-        operator = set(["*", "-", "+", "/"])
         stack = []
-        for i in tokens:
-            if i in operator:
-                a = stack.pop()
-                b = stack.pop()
-                stack.append(self.resolves(b, a, i))
+
+        for token in tokens:
+            if token in ["+", "-", "/", "*"]:
+                right = stack.pop()
+                left = stack.pop()
+                stack.append(
+                    str(int(eval(left + token + right)))
+                )
             else:
-                stack.append(int(i))
-        return stack[0]
+                stack.append(token)
+        return int(stack[0])
