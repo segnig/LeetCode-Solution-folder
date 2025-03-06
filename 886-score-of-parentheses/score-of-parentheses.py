@@ -11,5 +11,4 @@ class Solution:
                     result[-1] += 1
                 else:
                     result[-1] += 2 * top
-            print(result)
         return result[-1]
