@@ -13,6 +13,5 @@ class Solution:
             while stack and nums[i] >= nums[stack[-1]]:
                 index = stack.pop()
                 result = max(result, i - index)
-                
-
+        
         return result
