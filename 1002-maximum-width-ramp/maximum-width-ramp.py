@@ -1,8 +1,6 @@
 class Solution:
     def maxWidthRamp(self, nums: List[int]) -> int:
         stack = []
-        index = [len(nums)] * len(nums)
-
         result = 0
 
         for i in range(len(nums)):
