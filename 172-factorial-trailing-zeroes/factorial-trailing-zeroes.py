@@ -1,18 +1,10 @@
 class Solution:
     def trailingZeroes(self, n: int) -> int:
-        sys.set_int_max_str_digits(100000)
+        if n < 2:
+            return 0
+        k = int(math.log(n) // math.log(5))
         result = 0
-        word = str(self.factorial(n))[::-1]
-        for char in word:
-            if char == "0":
-                result += 1
-            else:
-                break
-        return result
-
-
-    def factorial(self, n):
-        res = 1
-        for i in range(n, 0, -1):
-            res *= i
-        return res
+        print(k)
+        for i in range(1, k +1):
+            result += int(n/5 ** i)
+        return result 
