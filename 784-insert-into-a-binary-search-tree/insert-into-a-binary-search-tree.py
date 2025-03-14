@@ -13,8 +13,6 @@ class Solution:
         return root
     
     def insert(self, node, val):
-        if not node:
-            return TreeNode(val=val)
         if node.val > val:
             if not node.left:
                 node.left = TreeNode(val=val)
