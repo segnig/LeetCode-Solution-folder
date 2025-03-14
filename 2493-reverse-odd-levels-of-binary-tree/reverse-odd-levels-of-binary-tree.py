@@ -6,22 +6,14 @@
 #         self.right = right
 class Solution:
     def reverseOddLevels(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        queue = [root]
-        is_odd = False
-        
-        while queue:
-            current_level = [node.val for node in queue if node]
-            if is_odd:
-                for i in range(len(current_level)):
-                    queue[i].val = current_level[len(current_level) - i - 1]
-            is_odd = not is_odd
-
-            current_level = queue.copy()
-            queue = []
-
-            for node in current_level:
-                if node:
-                    queue.append(node.left)
-                    queue.append(node.right)
-
+        self.reverser(root.left, root.right)
         return root
+
+    def reverser(self, left_node, right_node, is_reversed=True):
+        if left_node is None:
+            return 
+        if is_reversed:
+            left_node.val, right_node.val = right_node.val, left_node.val
+        self.reverser(left_node.left, right_node.right, is_reversed = not is_reversed)
+        self.reverser(left_node.right, right_node.left, is_reversed = not is_reversed)
+    
