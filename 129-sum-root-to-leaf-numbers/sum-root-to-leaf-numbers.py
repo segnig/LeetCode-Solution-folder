@@ -18,5 +18,3 @@ class Solution:
             return path_val
         
         return self.dfs(node.left, path_val) + self.dfs(node.right, path_val)
-
-    
