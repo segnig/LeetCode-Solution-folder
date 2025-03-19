@@ -2,9 +2,8 @@ class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         self.result = []
         self.generator(n, k, 1, [])
-        ans = [list(comb) for comb in self.result]
-
-        return ans
+        
+        return self.result
         
     def generator(self, n, k, next, comb):
         if len(comb) == k:
