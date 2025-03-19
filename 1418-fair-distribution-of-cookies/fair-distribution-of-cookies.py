@@ -12,7 +12,7 @@ class Solution:
                 child[i] += cookies[indx]
                 backtrack(indx + 1)
                 child[i] -= cookies[indx]
-                
+
         if k == 8:
             return max(cookies)
         backtrack(0)
