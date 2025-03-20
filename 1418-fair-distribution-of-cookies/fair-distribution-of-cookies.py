@@ -3,17 +3,21 @@ class Solution:
         answer = inf
         child = [0] * k
 
-        def backtrack(indx):
+        def backtrack(indx, max_so_far):
             nonlocal answer, child
             if indx == len(cookies):
-                answer = min(answer, max(child))
+                answer = min(answer, max_so_far)
                 return 
             for i in range(k):
                 child[i] += cookies[indx]
-                backtrack(indx + 1)
+                backtrack(indx + 1, max(max_so_far, child[i]))
                 child[i] -= cookies[indx]
 
-        if k == 8:
+                if child[i] == 0:
+                    break
+
+
+        if k == len(cookies):
             return max(cookies)
-        backtrack(0)
+        backtrack(0, 0)
         return answer
