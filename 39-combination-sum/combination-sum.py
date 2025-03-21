@@ -1,23 +1,22 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        result = []
+        self.result = []
+        self.candidates = sorted(candidates)
+        self.target = target
+        self.backtrack(0)
+        return self.result
+
+    def backtrack(self, index = 0, total_sum = 0, comb=[]):
+        if total_sum == self.target:
+            self.result.append(comb[::])
+            return 
+        if total_sum > self.target or index >= len(self.candidates):
+            return 
         
-        def dfs(i, total, comb):
-            if total == target:
-                result.append(comb.copy())
-                return
-
-            if target < total or i >= len(candidates):
-                return 
-
-            comb.append(candidates[i])
-            dfs(i, total + candidates[i], comb)
-            comb.pop()
-            dfs(i+1, total, comb)
-
-        dfs(0, 0, [])
-        return result
-            
-            
-
         
+        comb.append(self.candidates[index])
+        total_sum += self.candidates[index]
+        self.backtrack(index, total_sum, comb)
+        comb.pop()
+        total_sum -= self.candidates[index]
+        self.backtrack(index + 1, total_sum, comb)
