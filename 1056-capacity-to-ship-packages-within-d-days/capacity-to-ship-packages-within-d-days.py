@@ -4,7 +4,6 @@ class Solution:
 
         while left <= right:
             mid = (left + right) // 2
-
             days_takes = 1
             cummulate = 0
             for weight in weights:
@@ -12,7 +11,6 @@ class Solution:
                 if cummulate > mid:
                     days_takes += 1
                     cummulate = weight
-            print(mid, days_takes)
             
             if days_takes > days:
                 left = mid + 1
