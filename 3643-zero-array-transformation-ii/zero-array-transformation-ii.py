@@ -12,7 +12,6 @@ class Solution:
                 best = mid
             else:
                 left = mid + 1
-        
         return best 
     
     def check(self, given, queries):
