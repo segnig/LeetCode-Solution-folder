@@ -9,21 +9,20 @@ class Solution:
             nonlocal result
             if i == n:
                 result += 1
-                return 
-
+                return
+            
             for j in range(n):
                 if (j in rows) or ((i - j) in neg_dia) or ((i + j) in pos_dia):
                     continue
 
                 rows.add(j)
                 neg_dia.add(i - j)
-                pos_dia.add(j + i)
+                pos_dia.add(i + j)
 
                 backtrack(i+1)
-
                 rows.remove(j)
                 neg_dia.remove(i - j)
-                pos_dia.remove(j + i) 
-
+                pos_dia.remove(i + j)
+               
         backtrack(0)
-        return result    
+        return result
