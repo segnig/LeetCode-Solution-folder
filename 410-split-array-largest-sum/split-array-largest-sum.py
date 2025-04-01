@@ -1,19 +1,26 @@
 class Solution:
     def splitArray(self, nums: List[int], k: int) -> int:
-        dp = {}
+        left = max(nums)
+        right = sum(nums)
 
-        def dfs(i , m):
-            if m == 1:
-                return sum(nums[i:])
-            if (i, m) in dp:
-                return dp[(i, m)]
-            res, curSum = float('inf'), 0
-            for j in range(i, len(nums) - m + 1):
-                curSum += nums[j]
-                maxSum = max(curSum, dfs(j + 1, m - 1))
-                res = min(res, maxSum)
-                if curSum > res:
-                    break
-            dp[(i, m)] = res
-            return res
-        return dfs(0, k)
+        while left <= right:
+            mid = (left + right) // 2
+            if self.check(nums, k, mid):
+                right = mid - 1
+            else:
+                left = mid + 1
+            
+        return left
+
+
+    def check(self, nums, k, limit):
+        count = 1
+        sum_ = 0
+
+        for num in nums:
+            if num + sum_ > limit:
+                count += 1
+                sum_ = num
+            else:
+                sum_ += num
+        return count <= k
