@@ -6,5 +6,5 @@ class Solution:
             current_diff = nums1[i] - nums2[i]
             count = bisect_right(sorted_list, current_diff + diff)
             result += count
-            bisect.insort(sorted_list, current_diff)
+            insort(sorted_list, current_diff)
         return result
