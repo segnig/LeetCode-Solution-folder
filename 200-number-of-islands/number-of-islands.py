@@ -15,17 +15,13 @@ class Solution:
         return 0 <= row < len(self.grid) and 0 <= col < len(self.grid[0])
 
     def dfs(self, row, col):
-        
         if not self.in_bound(row, col) or self.grid[row][col] == "0":
-            return 1
+            return
         if self.grid[row][col] == -1:
-            return 0
+            return
 
         self.grid[row][col] = -1
-        
-        return (
-            self.dfs(row - 1, col) + 
-            self.dfs(row + 1, col) + 
-            self.dfs(row, col - 1) + 
-            self.dfs(row, col + 1)
-        )
+        self.dfs(row - 1, col) 
+        self.dfs(row + 1, col) 
+        self.dfs(row, col - 1)  
+        self.dfs(row, col + 1)    
