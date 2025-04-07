@@ -18,14 +18,16 @@ class Solution:
         
         if not self.in_bound(row, col) or self.grid[row][col] == 0:
             return 1
-    
-
         if self.grid[row][col] == -1:
             return 0
 
         self.grid[row][col] = -1
-        
-        return self.dfs(row - 1, col) + self.dfs(row + 1, col) + self.dfs(row, col - 1) + self.dfs(row, col + 1)
+        return (
+            self.dfs(row - 1, col) + 
+            self.dfs(row + 1, col) + 
+            self.dfs(row, col - 1) + 
+            self.dfs(row, col + 1)
+        )
 
 
 
