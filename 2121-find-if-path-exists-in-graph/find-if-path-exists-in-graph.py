@@ -14,10 +14,10 @@ class Solution:
             return True
         
         self.visited.add(node)
-        
         for nb in self.graph[node]:
             if nb not in  self.visited:
                 found = self.dfs(nb)
                 if found:
                     return True
+
         return False
