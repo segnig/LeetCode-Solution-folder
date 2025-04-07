@@ -1,19 +1,32 @@
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
-        row = len(grid)
-        col = len(grid[0])
-        result = 0
-        for i in range(row):
-            for j in range(col):
-                if grid[i][j]:
-                    counted = 0
-                    if i - 1 < 0 or not grid[i-1][j]:
-                        counted += 1
-                    if i + 1 == row or not grid[i + 1][j]:
-                        counted += 1
-                    if j - 1 < 0 or not grid[i][j-1]:
-                        counted += 1
-                    if j + 1 == col or not grid[i][j + 1]:
-                        counted += 1
-                    result += counted
-        return result
+        self.grid = grid
+        perimeter = 0
+
+        for r in range(len(self.grid)):
+            for c in range(len(self.grid[0])):
+                if self.grid[r][c] == 1:
+                    perimeter += self.dfs(r, c)
+        
+        return perimeter
+
+        
+    def in_bound(self, row, col):
+        return 0 <= row < len(self.grid) and 0 <= col < len(self.grid[0])
+
+    def dfs(self, row, col):
+        
+        if not self.in_bound(row, col) or self.grid[row][col] == 0:
+            return 1
+    
+
+        if self.grid[row][col] == -1:
+            return 0
+
+        self.grid[row][col] = -1
+        
+        return self.dfs(row - 1, col) + self.dfs(row + 1, col) + self.dfs(row, col - 1) + self.dfs(row, col + 1)
+
+
+
+        
