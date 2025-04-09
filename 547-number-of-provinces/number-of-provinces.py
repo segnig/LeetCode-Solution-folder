@@ -15,7 +15,6 @@ class Solution:
             if i not in self.visited:
                 count += 1
                 self.dfs(i)
-                print(i, self.visited)
 
         return count
 
