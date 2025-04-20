@@ -1,26 +1,33 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
-        ROWS, COLS = len(board), len(board[0])
-        path = set()
+        self.board = board
+        self.word = word
+        self.rows = len(board)
+        self.cols = len(board[0])
+        self.directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
-        def dfs(r, c, i):
-            if len(word) == i:
-                return True
-            if (r < 0 or c < 0 or r >= ROWS or c >= COLS or word[i] != board[r][c] or (r, c) in path):
-                return False
-            path.add((r, c))
-            res = (
-                dfs(r+1, c, i + 1) or
-                dfs(r-1, c, i + 1) or
-                dfs(r, c+1, i + 1) or
-                dfs(r, c-1, i + 1) 
-            )
-            path.remove((r, c))
-
-            return res
-        
-        for r in range(ROWS):
-            for c in range(COLS):
-                if dfs(r, c, 0): return True
-
+        for i in range(self.rows):
+            for j in range(self.cols):
+                if self.dfs(i, j, 0, set()):
+                    return True
         return False
+        
+    def dfs(self, row, col, index, visited):
+        if not self.inbound(row, col) or (row, col) in visited:
+            return False
+
+        if self.board[row][col] != self.word[index]:
+            return False
+
+        if index == len(self.word) - 1:
+            return True
+
+        visited.add((row, col))
+        for dr, dc in self.directions:
+            if self.dfs(row + dr, col + dc, index + 1, visited):
+                return True
+        visited.remove((row, col))
+        return False
+
+    def inbound(self, row, col):
+        return 0 <= row < self.rows and 0 <= col < self.cols
