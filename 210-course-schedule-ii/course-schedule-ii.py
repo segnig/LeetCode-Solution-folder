@@ -1,31 +1,30 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        graph = [[] for _ in range(numCourses)]
-        indegrees = [0 for _ in range(numCourses)]
+        self.graph = [[] for _ in range(numCourses)]
+        self.colors = [0 for _ in range(numCourses)]
 
+        self.orders = []
         for course, pre in prerequisites:
-            graph[pre].append(course)
-            indegrees[course] += 1
+            self.graph[pre].append(course)
 
-        queue = deque()
-        orders = []
+        for node in range(numCourses):
+            if not self.topSort(node):
+                return []
+        return self.orders[::-1]
 
-        for course in range(numCourses):
-            if indegrees[course] == 0:
-                queue.append(course)
-                orders.append(course)
-
-        while queue:
-            node = queue.popleft()
-
-            for nb in graph[node]:
-                indegrees[nb] -= 1
-                if indegrees[nb] == 0:
-                    queue.append(nb)
-                    orders.append(nb)
+    def topSort(self, node):
+        if self.colors[node] == 1:
+            return False
         
-        if len(orders) < numCourses:
-            return []
+        if self.colors[node] == 2:
+            return True
         
-        return orders
+        self.colors[node] = 1
 
+        for nb in self.graph[node]:
+            if not self.topSort(nb):
+                return False
+        self.colors[node] = 2
+        self.orders.append(node)
+
+        return True
