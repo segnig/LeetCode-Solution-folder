@@ -8,7 +8,7 @@ class Solution:
             self.graph[pre].append(course)
 
         for node in range(numCourses):
-            if not self.topSort(node):
+            if not self.colors[node] and not self.topSort(node):
                 return []
         return self.orders[::-1]
 
