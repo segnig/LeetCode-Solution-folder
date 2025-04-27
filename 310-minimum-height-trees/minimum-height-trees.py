@@ -2,8 +2,8 @@ class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
         if n == 1:
             return [0]
-        indegree = [0] * n
 
+        indegree = [0] * n
         graph = defaultdict(list)
         number_of_edgee = 0
         for u, v in edges:
@@ -28,8 +28,6 @@ class Solution:
                     indegree[nb] -= 1
                     if indegree[nb] == 1:
                         queue.append(nb)
-        
-
 
         return list(queue)
         
