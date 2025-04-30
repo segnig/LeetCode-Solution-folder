@@ -4,7 +4,6 @@ class Solution:
         sfate_nodes = []
 
         temp_graph = [[] for _ in range(len(graph))]
-        
 
         indegrees = [0 for i in range(len(graph))]
         for node in range(len(graph)):
@@ -28,5 +27,4 @@ class Solution:
                         queue.append(nb)
                         sfate_nodes.append(nb)
     
-
         return sorted(sfate_nodes)
