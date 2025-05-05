@@ -2,14 +2,12 @@ class Solution:
     def getOrder(self, tasks: List[List[int]]) -> List[int]:
         
         tasks = [(task[0], task[1], index) for index , task in enumerate(tasks)]
-
         tasks.sort()
 
         order = []
         queue = []
 
         time = tasks[0][0]
-
         index = 0
 
         while index < len(tasks):
