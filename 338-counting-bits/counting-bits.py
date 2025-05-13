@@ -3,8 +3,9 @@ class Solution:
         res = []
         for num  in range(n+1):
             count = 0
-            for bit in range(32):
-                count += num & (1 << bit) != 0
+            while num > 0:
+                count += num & 1 !=  0
+                num >>= 1
             
             res.append(count)
 
