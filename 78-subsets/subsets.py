@@ -6,7 +6,7 @@ class Solution:
 
         for num in range(2 ** n):
             comb = []
-            for index in range(num):
+            for index in range(n):
                 if index == num:
                     break
                 if num & (1 << index )!= 0:
