@@ -2,14 +2,14 @@ class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         result = []
 
-        def backtrack(indx=0, comb=[]):
-            if indx == len(nums):
-                result.append(comb)
-                return 
-            
-            backtrack(indx+1, comb)
-            backtrack(indx+1, comb + [nums[indx]])
-        
-        backtrack()
+        n = len(nums)
 
+        for num in range(2 ** n):
+            comb = []
+            for index in range(num):
+                if index == num:
+                    break
+                if num & (1 << index )!= 0:
+                    comb.append(nums[index])
+            result.append(comb.copy())
         return result
