@@ -10,5 +10,4 @@ class Solution:
             canditates.add(cand)
 
         result = list(result)
-
         return result
