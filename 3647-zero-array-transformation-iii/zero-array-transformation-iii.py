@@ -24,6 +24,7 @@ class Solution:
             if len(used) < nums[i]:
                 possible = False
                 break
+                
         if possible:
             return len(candidates)
         else:
