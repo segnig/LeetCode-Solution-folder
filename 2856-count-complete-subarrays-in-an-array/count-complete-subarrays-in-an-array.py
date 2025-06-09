@@ -1,22 +1,19 @@
-from collections import defaultdict  
+class Solution:
+    def countCompleteSubarrays(self, nums: List[int]) -> int:
+        number_of_completed_subarray = 0
+        left = 0
+        num_of_distinict_number = len(set(nums))
+        element_counter = Counter()
 
-class Solution(object):  
-    def countCompleteSubarrays(self, nums):  
-        count_dist = defaultdict(int)  
-        left, right = 0, 0  
-        L = len(set(nums))  
-        result = 0  
+        for right in range(len(nums)):
+            element_counter[nums[right]] += 1
 
-        while right < len(nums):  
-           
-            count_dist[nums[right]] += 1  
-            while len(count_dist) == L:  
-                result += (len(nums) - right) 
-                count_dist[nums[left]] -= 1   
-                if count_dist[nums[left]] == 0:  
-                    del(count_dist[nums[left]])  
-                left += 1   
+            while len(element_counter) == num_of_distinict_number:
+                number_of_completed_subarray += len(nums) - right
+                element_counter[nums[left]] -= 1
 
-            right += 1 
+                if element_counter[nums[left]] == 0:
+                    del element_counter[nums[left]]
+                left += 1
 
-        return result
+        return number_of_completed_subarray
