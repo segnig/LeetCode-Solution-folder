@@ -10,7 +10,6 @@ class Solution:
         leave = []
 
         heapify(unoccupied)
-
         times = {a:l for a, l in times}
 
         for arrival in range(open_, close):
