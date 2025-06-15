@@ -23,7 +23,7 @@ class Solution:
             for dep_g in group_graph[g]:
                 group_indegree[dep_g] += 1
         
-        group_order = self.topo_sort(group_graph, group_indegree, unique_group)
+        group_order = self.topo_sort(group_graph, group_indegree, unique_group, range(unique_group))
         if not group_order:
             return []
         
@@ -44,14 +44,7 @@ class Solution:
                         sub_indegree[j] += 1
             
             queue = deque([i for i in items_in_group if sub_indegree[i] == 0])
-            sorted_items = []
-            while queue:
-                i = queue.popleft()
-                sorted_items.append(i)
-                for j in subgraph[i]:
-                    sub_indegree[j] -= 1
-                    if sub_indegree[j] == 0:
-                        queue.append(j)
+            sorted_items = self.topo_sort(subgraph, sub_indegree, len(items_in_group), items_in_group)
             
             if len(sorted_items) != len(items_in_group):
                 return []
@@ -60,8 +53,8 @@ class Solution:
         
         return item_order
     
-    def topo_sort(self, graph, indegree, size):
-        queue = deque([node for node in range(size) if indegree[node] == 0])
+    def topo_sort(self, graph, indegree, size, list_of_nodes):
+        queue = deque([node for node in list_of_nodes if indegree[node] == 0])
         order = []
         while queue:
             node = queue.popleft()
