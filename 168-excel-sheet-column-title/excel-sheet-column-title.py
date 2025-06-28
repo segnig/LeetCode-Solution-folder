@@ -1,12 +1,9 @@
-class Solution(object):
-    def convertToTitle(self, columnNumber):
+class Solution:
+    def convertToTitle(self, columnNumber: int) -> str:
+        result = ""
+        while columnNumber:
 
-        res = ""
+            result += chr((columnNumber - 1) % 26 + ord("A"))
+            columnNumber = (columnNumber - 1) // 26
 
-        while columnNumber > 0:
-            columnNumber, remainder = divmod(columnNumber - 1, 26)
-            res += chr(65 + remainder)
-
-        print(res)
-
-        return res[::-1]
+        return result[::-1]
