@@ -13,7 +13,6 @@ class Solution:
             if stack[left] != "0":
                 break
             left += 1
-        print(stack)
         if k > 0:
             stack = stack[:-k]
 
