@@ -1,22 +1,21 @@
-from collections import Counter
-
 class Solution:
     def removeDuplicateLetters(self, s: str) -> str:
-        counter = Counter(s)
-        in_stack = set()
+
+        counter_word = Counter(s)
+        in_stack = 0
         stack = []
 
         for char in s:
-            counter[char] -= 1
-
-            if char in in_stack:
+            counter_word[char] -= 1
+            bit = 1 << (ord(char) - ord("a"))
+            if in_stack & bit:
                 continue
-
-            while stack and char < stack[-1] and counter[stack[-1]] > 0:
-                removed = stack.pop()
-                in_stack.remove(removed)
-
+            while stack and char < stack[-1] and counter_word[stack[-1]] > 0:
+                popped_char = stack.pop()
+                in_stack ^= 1 << (ord(popped_char) - ord("a"))
+                
+            
             stack.append(char)
-            in_stack.add(char)
-
+            in_stack |= bit
+        
         return "".join(stack)
