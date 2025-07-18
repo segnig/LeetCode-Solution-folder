@@ -1,32 +1,29 @@
 class Solution:
-    def survivedRobotsHealths(self, positions, healths, directions):
-        n = len(positions)
-        indices = list(range(n))
-        result = []
-        stack = deque()
-        indices.sort(key=lambda x: positions[x])
+    def survivedRobotsHealths(self, positions: List[int], healths: List[int], directions: str) -> List[int]:
+        robots = [[positions[i], healths[i], directions[i], i] for i in range(len(positions))]
+        robots.sort()
 
-        for current_index in indices:
-            if directions[current_index] == "R":
-                stack.append(current_index)
+        stack = []
+        for robot in robots:
+            if not stack or robot[2] == "R":
+                stack.append(robot)
             else:
-                while stack and healths[current_index] > 0:
-                    top_index = stack.pop()
-
-                    if healths[top_index] > healths[current_index]:
-                        healths[top_index] -= 1
-                        healths[current_index] = 0
-                        stack.append(top_index)
-                    elif healths[top_index] < healths[current_index]:
-                        healths[current_index] -= 1
-                        healths[top_index] = 0
+                online = True
+                while stack and stack[-1][2] != robot[2]:
+                    if stack[-1][1] == robot[1]:
+                        stack.pop()
+                        online = False
+                        break
+                    elif stack[-1][1] > robot[1]:
+                        stack[-1][1] -= 1
+                        online = False
+                        break
                     else:
-                        healths[current_index] = 0
-                        healths[top_index] = 0
-
-        
-        for index in range(n):
-            if healths[index] > 0:
-                result.append(healths[index])
-
-        return result
+                        stack.pop()
+                        robot[1] -= 1
+                if online:
+                    stack.append(robot)
+        if not stack:
+            return []
+        stack.sort(key=lambda x: x[-1])
+        return [x[1] for x in stack]
