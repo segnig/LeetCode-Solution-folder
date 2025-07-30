@@ -26,8 +26,7 @@ class Solution:
 
     def bfs(self, tree):
         visited = set([0])
-        level = 0
-        count = 0 
+        level, count = 0, 0
         queue = deque([0])
         even_level_nodes = []
 
