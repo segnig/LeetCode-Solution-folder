@@ -1,8 +1,13 @@
-class Solution(object):
-    def constructTransformedArray(self, nums):
-        result = [0 for i in range(len(nums))]
+class Solution:
+    def constructTransformedArray(self, nums: List[int]) -> List[int]:
+        result = [0] * len(nums)
 
         for i in range(len(nums)):
-            result[i] = nums[(nums[i] + i) % len(nums)]
+            if nums[i] > 0:
+                result[i] = nums[(nums[i] + i) % len(nums)]
+            elif nums[i] < 0:
+                result[i] = nums[(nums[i] + i) % len(nums)]
+
         return result
+
         
