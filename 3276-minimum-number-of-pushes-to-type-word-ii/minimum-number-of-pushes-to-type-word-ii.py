@@ -1,12 +1,10 @@
-class Solution:  
-    def minimumPushes(self, word: str) -> int: 
-        char_count = Counter(word)  
-          
-        sorted_char_count = sorted(char_count.items(), key=lambda x: x[1], reverse=True)  
-        
-        total_pushes = 0  
-        
-        for i, (char, count) in enumerate(sorted_char_count):  
-            total_pushes += ((i + 8)// 8) * count  
+class Solution:
+    def minimumPushes(self, word: str) -> int:
+        word_counter = Counter(word)
+        word_counter = list(word_counter.items())
+        word_counter.sort(key=lambda x: x[1], reverse=True)
+        result = 0
+        for i, count in enumerate(word_counter):
+            result += count[1] * ((i // 8) + 1)
 
-        return total_pushes
+        return result
