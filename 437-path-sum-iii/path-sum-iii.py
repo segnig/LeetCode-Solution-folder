@@ -7,9 +7,7 @@
 class Solution:
     def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
         counter = defaultdict(int)
-        counter[0] = 1
-        result = 0
-        running_sum = 0
+        result, running_sum, counter[0] = 0, 0, 1
 
         def dfs(root):
             nonlocal running_sum, result
