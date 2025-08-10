@@ -1,16 +1,14 @@
-class Solution(object):
-    def findClosestElements(self, arr, k, x):
+class Solution:
+    def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
+        nums = [[abs(num - x), x < num] for num in arr]
+        heapify(nums)
         result = []
-
-        for i, n in enumerate(arr):
-            result.append((abs(x - n), i))
-
+        for _ in range(k):
+            diff, neg = heappop(nums)
+            if neg:
+                result.append(x + diff)   
+            else:
+                result.append(x - diff)  
+            
         result.sort()
-        res = []
-        for i in range(k):
-            res.append(arr[result[i][1]])
-
-        res.sort()
-
-        return res
-           
+        return result  
