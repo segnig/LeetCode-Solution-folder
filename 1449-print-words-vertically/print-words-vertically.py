@@ -1,22 +1,22 @@
 class Solution(object):
     def printVertically(self, s):
-        mx_len = max([len(word) for word in s.split()])
-        result = [[] for _ in range(mx_len)]
+        l = max([len(word) for word in s.split()])
+        store = [[] for _ in range(l)]
 
         for word in s.split():
-            for index in range(mx_len):
+            for index in range(l):
                 if index < len(word):
-                    result[index].append(word[index])
+                    store[index].append(word[index])
                 else:
-                    result[index].append(" ")
+                    store[index].append(" ")
 
-        res = ["".join(chars) for chars in result]
-        result = []
+        res = ["".join(chars) for chars in store]
+        store = []
 
         for word in res:
             lenght = len(word) - 1
             while lenght and word[lenght] == " ":
                 lenght -= 1
-            result.append(word[:lenght + 1])
+            store.append(word[:lenght + 1])
 
-        return result
+        return store
