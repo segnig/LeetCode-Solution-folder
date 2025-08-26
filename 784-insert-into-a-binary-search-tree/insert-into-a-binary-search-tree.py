@@ -11,7 +11,6 @@ class Solution:
         node = root
         self.insert(root, val)
         return root
-    
     def insert(self, node, val):
         if node.val > val:
             if not node.left:
@@ -23,4 +22,3 @@ class Solution:
                 node.right = TreeNode(val=val)
                 return
             return self.insert(node.right, val)
-        
