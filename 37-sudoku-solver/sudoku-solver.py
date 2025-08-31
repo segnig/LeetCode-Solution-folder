@@ -4,61 +4,62 @@ class Solution:
         Do not return anything, modify board in-place instead.
         """
         
-        self.candidates = [[set(str(num) for num in range(1, 10)) for _ in range(9)] for _ in range(9)]
+        self.cands = [[set(str(num) for num in range(1, 10)) for _ in range(9)] for _ in range(9)]
         
         for i in range(9):
             for j in range(9):
                 if board[i][j] != '.':
-                    self.update_candidates(board, i, j, board[i][j])
+                    self.update_cands(board, i, j, board[i][j])
         
         self.solve(board)
 
     def solve(self, board):
-        min_candidates = 10
+        min_cands = 10
         best_cell = None
         for i in range(9):
             for j in range(9):
-                if board[i][j] == '.' and len(self.candidates[i][j]) < min_candidates:
-                    min_candidates = len(self.candidates[i][j])
+                if board[i][j] == '.' and len(self.cands[i][j]) < min_cands:
+                    min_cands = len(self.cands[i][j])
                     best_cell = (i, j)
-                    if min_candidates == 1:
+                    if min_cands == 1:
                         break
-            if best_cell is not None and min_candidates == 1:
+            if best_cell is not None and min_cands == 1:
                 break
 
         if best_cell is None:
             return True
+            
         
         i, j = best_cell
-        for val in list(self.candidates[i][j]):
+        for val in list(self.cands[i][j]):
             board[i][j] = val
-            candidates_copy = self.copy_candidates()
-            self.update_candidates(board, i, j, val)
+            cands_copy = self.copy_cands()
+            self.update_cands(board, i, j, val)
             
             if self.solve(board):
                 return True
             
             board[i][j] = '.'
-            self.restore_candidates(candidates_copy)
+            self.restore_cands(cands_copy)
         
         return False
 
-    def update_candidates(self, board, i, j, val):
+    def update_cands(self, board, i, j, val):
         for x in range(9):
-            if val in self.candidates[i][x]:
-                self.candidates[i][x].remove(val)
-            if val in self.candidates[x][j]:
-                self.candidates[x][j].remove(val)
+            if val in self.cands[i][x]:
+                self.cands[i][x].remove(val)
+            if val in self.cands[x][j]:
+                self.cands[x][j].remove(val)
         
         subgrid_row = (i // 3) * 3
         subgrid_col = (j // 3) * 3
         for x in range(subgrid_row, subgrid_row + 3):
             for y in range(subgrid_col, subgrid_col + 3):
-                if val in self.candidates[x][y]:
-                    self.candidates[x][y].remove(val)
+                if val in self.cands[x][y]:
+                    self.cands[x][y].remove(val)
 
-    def copy_candidates(self):
-        return [[set(cell) for cell in row] for row in self.candidates]
+    def copy_cands(self):
+        return [[set(cell) for cell in row] for row in self.cands]
 
-    def restore_candidates(self, candidates_copy):
-        self.candidates = candidates_copy
+    def restore_cands(self, cands_copy):
+        self.cands = cands_copy
