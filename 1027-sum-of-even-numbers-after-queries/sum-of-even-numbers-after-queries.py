@@ -1,37 +1,22 @@
-class Solution(object):
-    def sumEvenAfterQueries(self, nums, queries):
-        # sum of the even nums
-        is_even = lambda x: x % 2 == 0
+class Solution:
+    def sumEvenAfterQueries(self, nums: List[int], queries: List[List[int]]) -> List[int]:
+        sum_off_even_nums = 0
 
-        even_nums = filter(is_even, nums)
+        for num in nums:
+            if num % 2 == 0:
+                sum_off_even_nums += num
 
-        sum_of_even_nums = sum(even_nums)
-
-        result = []
-
-        for val, index in queries:
-
-            if nums[index] % 2 == 0:
-
-                if (nums[index] + val) % 2 == 0:
-
-                    sum_of_even_nums += val
-                    nums[index] += val
-
-                else:
-                    sum_of_even_nums -= nums[index]
-                    nums[index] += val
-
-            else:
-                if (nums[index] + val) % 2 == 0:
-                
-                    nums[index] += val
-                    sum_of_even_nums += nums[index]
-                    
-                else:
-                    nums[index] += val
+        answer = []
+        for i in range(len(queries)):
+            if nums[queries[i][1]] % 2 == 0 and queries[i][0] % 2 == 0:
+                sum_off_even_nums += queries[i][0]
+            elif nums[queries[i][1]] % 2 == 0 and queries[i][0] % 2 != 0:
+                sum_off_even_nums -= nums[queries[i][1]]
             
-            result.append(sum_of_even_nums)
-
-
-        return result
+            elif nums[queries[i][1]] % 2 != 0 and queries[i][0] % 2 != 0:
+                sum_off_even_nums += nums[queries[i][1]] + queries[i][0]
+            
+            nums[queries[i][1]] += queries[i][0]
+            answer.append(sum_off_even_nums)
+        
+        return answer
