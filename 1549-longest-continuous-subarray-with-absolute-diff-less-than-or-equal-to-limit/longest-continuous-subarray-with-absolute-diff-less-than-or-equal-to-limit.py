@@ -1,6 +1,6 @@
 class Solution:
     def longestSubarray(self, nums: List[int], limit: int) -> int:
-        incr = deque()
+        increasing = deque()
         decreasing = deque()
         left = -1
         result = 1
@@ -10,15 +10,15 @@ class Solution:
                 decreasing.pop()
 
             decreasing.append((nums[right], right))
-            while incr and incr[-1][0] > nums[right]:
-                incr.pop()
+            while increasing and increasing[-1][0] > nums[right]:
+                increasing.pop()
                 
-            incr.append((nums[right], right))
+            increasing.append((nums[right], right))
             while decreasing and abs(decreasing[0][0] - nums[right]) > limit:
                 popped = decreasing.popleft()
                 left = max(left, popped[1])
-            while incr and abs(incr[0][0] - nums[right]) > limit:
-                popped = incr.popleft()
+            while increasing and abs(increasing[0][0] - nums[right]) > limit:
+                popped = increasing.popleft()
                 left = max(left, popped[1])
             result = max(result, right - left)
         return result
