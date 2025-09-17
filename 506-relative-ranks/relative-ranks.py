@@ -1,7 +1,7 @@
 class Solution:
     def findRelativeRanks(self, score: List[int]) -> List[str]:
-        sorted_score = sorted(score, reverse=True)
-        rank = {val: index + 1 for index, val in enumerate(sorted_score)}
+        sc = sorted(score, reverse=True)
+        rank = {val: index + 1 for index, val in enumerate(sc)}
 
         result = []
         for val in score:
