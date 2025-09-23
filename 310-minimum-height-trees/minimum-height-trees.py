@@ -3,31 +3,24 @@ class Solution:
         if n == 1:
             return [0]
 
-        indegree = [0] * n
-        graph = defaultdict(list)
-        number_of_edgee = 0
-        for u, v in edges:
-            graph[u].append(v)
-            graph[v].append(u)
-            indegree[u] += 1
-            indegree[v] += 1
-            number_of_edgee += 1
+        graph = defaultdict(set)
+        for a, b in edges:
+            graph[a].add(b)
+            graph[b].add(a)
 
-        queue = deque()
-
-        for node, val in enumerate(indegree):
-            if val == 1:
-                queue.append(node)
-
-        while number_of_edgee > 1:
-            for _ in range(len(queue)):
-                node = queue.popleft()
-                number_of_edgee -= 1
-
-                for nb in graph[node]:
-                    indegree[nb] -= 1
-                    if indegree[nb] == 1:
-                        queue.append(nb)
-
-        return list(queue)
         
+        leaves = deque([i for i in range(n) if len(graph[i]) == 1])
+
+        remaining_nodes = n
+        while remaining_nodes > 2:
+            leaf_count = len(leaves)
+            remaining_nodes -= leaf_count
+
+            for _ in range(leaf_count):
+                leaf = leaves.popleft()
+                for neighbor in graph[leaf]:
+                    graph[neighbor].remove(leaf)
+                    if len(graph[neighbor]) == 1:
+                        leaves.append(neighbor)
+
+        return list(leaves)
