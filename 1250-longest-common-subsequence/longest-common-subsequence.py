@@ -10,6 +10,5 @@ class Solution:
                     dp[i][j] = 1 + dp[i - 1][j - 1]
                 else:
                     dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
-        for d in dp:
-            print(d)
+                    
         return dp[len(text2)][len(text1)]
