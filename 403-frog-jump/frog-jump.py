@@ -12,12 +12,10 @@ class Solution:
                 return True
             
             stone = stones[i]
-            step1, step2, step3 = False, False, False
-            step1 = (k-1 != 0) and (stone + k-1 in temp) and dp(k-1, hashTable[stone + k-1])
-            step2 = (k != 0) and (stone + k in temp) and dp(k, hashTable[stone + k])
-            step3 = (k+1 != 0) and (stone + k+1 in temp) and dp(k+1, hashTable[stone + k+1])
-                    
+            for step in [k-1, k, k+1]:
+                if (step != 0) and (stone + step in temp) and dp(step, hashTable[stone + step]):
+                    return True
 
-            return step1 or step2 or step3 
+            return False
 
         return dp(1, 1)
