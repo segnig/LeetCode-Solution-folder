@@ -11,11 +11,10 @@ class Solution:
             if rem < 0:
                 return inf
             
-            min_ = inf
+            result = inf
             for num in temp:
-                take = 1 + dp(rem - num)
-                min_ = min(min_, take)
+                result = min(result, 1 + dp(rem - num))
 
-            return min_
+            return result
         
         return dp(n)
