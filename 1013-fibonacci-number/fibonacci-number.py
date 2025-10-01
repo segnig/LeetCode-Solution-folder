@@ -1,11 +1,9 @@
 class Solution:
-    def __init__(self):
-        self.memo = {}
     def fib(self, n: int) -> int:
-        if n < 2:
-            return n
-        if n not in self.memo:
-            self.memo[n] =  self.fib(n-1) + self.fib(n-2)
-        return self.memo[n]
-        
-       
+        if n == 0:
+            return 0
+        first, second = 0, 1
+
+        for _ in range(2, n):
+            second, first = second + first, second
+        return second + first
