@@ -12,8 +12,5 @@ class Solution:
                 cups[row][col] = left / 2 + right / 2
 
 
-
-        for cup in  cups:
-            print(cup)
         
         return cups[query_row+1][query_glass+1] if cups[query_row+1][query_glass+1] < 1 else 1
