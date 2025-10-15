@@ -7,7 +7,7 @@ class Solution:
         while x > 0:
             curr_digit = x % 10
             x //= 10
-            if result > (2 ** 31 - 1) / 10 - curr_digit+1:
+            if result > (2 ** 31 - 1) / 10 - curr_digit + 1:
                 return 0
             result = result * 10 + curr_digit
         
