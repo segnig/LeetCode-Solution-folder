@@ -1,9 +1,13 @@
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        anagram_groups = defaultdict(list)
+        store = defaultdict(list)
 
         for word in strs:
-            word_list = (list(word))
-            anagram_groups[tuple(sorted(word_list))].append(word)
+            counter = [0]*26
+            for char in word:
+                idx = ord(char) - ord("a")
+                counter[idx] += 1
 
-        return [anagram_groups[word] for word in anagram_groups]   
+            store[tuple(counter)].append(word)
+
+        return list(store.values())
