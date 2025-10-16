@@ -1,14 +1,19 @@
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        window = defaultdict(int)
-        result = 0
-        left = 0
-        most_similary = 0
+        counter = defaultdict(int)
+
+        result = left = most_freq = 0
+
         for right in range(len(s)):
-            window[s[right]] += 1
-            most_similary = max(most_similary, window[s[right]])
-            while (right - left - most_similary) + 1 > k:
-                window[s[left]] -= 1
+            counter[s[right]] += 1
+            most_freq = max(counter[s[right]], most_freq)
+
+            while right - left - most_freq + 1> k:
+                counter[s[left]] -= 1
                 left += 1
-            result = max(right - left, result)
-        return max(len(s) - left, result)
+            
+            result = max(result, right - left + 1)
+        
+        return max(result, len(s) - left)
+
+            
