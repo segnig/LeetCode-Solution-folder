@@ -15,7 +15,9 @@ class Solution:
             if not (min_val < node.val < max_val):
                 return False
             
-            return dfs(node.left, min_val, node.val) and dfs(node.right, node.val, max_val)
+            left = dfs(node.left, min_val, node.val)
+            right = dfs(node.right, node.val, max_val)
+            return left and right
         
         return dfs(root)
         
