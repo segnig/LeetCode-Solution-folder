@@ -1,16 +1,16 @@
 class Solution:
     def getKth(self, lo: int, hi: int, k: int) -> int:
-        
+        memo = {}
+
         def helper(x):
-            count = 0
-            while x != 1:
+            if x == 1:
+                return 0
+            if x not in memo:
                 if x % 2 == 0:
-                    x //= 2
-                else: 
-                    x = 3 * x + 1
-                count += 1
-            
-            return count
+                    memo[x] = 1 + helper(x//2)
+                    return memo[x]
+                memo[x] = 1 + helper(x * 3 + 1)
+            return memo[x]
         
         num_pows = [(helper(num), num) for num in range(lo, hi+1)]
         num_pows.sort()
