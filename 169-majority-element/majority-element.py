@@ -1,13 +1,12 @@
-class Solution(object):
-    def majorityElement(self, nums):
-        
-        count = Counter(nums)
-        res = 0
-        cur = 0
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        counter = Counter(nums)
+        max_count = 0
+        result = None
 
-        for h in count:
-            if count[h] > res:
-                res = count[h]
-                cur = h
-        return cur
+        for val, count in counter.items():
+            if max_count < count:
+                result, max_count = val, count
+        
+        return result
         
