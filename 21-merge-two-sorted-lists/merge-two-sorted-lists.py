@@ -5,18 +5,6 @@
 #         self.next = next
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        '''
-                      h1
-         1 -> 2 -> 4 
-         1 -> 3 -> 4
-                   h2
-         
-         1 -> 1 -> 2 -> 3 -> 4 -> 4 ->
-         
-        '''
-        
-        
-        # create dummy
         temp = dummy = ListNode()
         
         while list1 and list2:
