@@ -1,36 +1,45 @@
+
+'''
+browser History
+= visit(stirng url) -> url that we will visti 
+= back(int stpes) -> go back upto steps, steps > len(browserHistory) we shoudl return to the last url, clears up all fthe forward histories 
+= froward(int steps) -> go foraward steps, steps > len(crowse) we should return to the first one
+
+-- array,
+'''
 class Node:
     def __init__(self, val):
         self.val = val
-        self.next = None
         self.prev = None
+        self.next = None
 
 class BrowserHistory:
 
     def __init__(self, homepage: str):
-        self.page = Node(homepage)
-        self.curr = self.page
+        # self.array = [] not efficdent 
+        self.root = Node(homepage)
+        self.current = self.root
 
     def visit(self, url: str) -> None:
-        node = Node(url)
-        self.curr.next = node
-        node.prev = self.curr
-        self.curr = self.curr.next
+        page = Node(url)
+        self.current.next = page
+        page.prev = self.current 
+        self.current = page
+        
 
     def back(self, steps: int) -> str:
-        for i in range(steps):
-            if not self.curr.prev:
-                break
-            self.curr = self.curr.prev
+        while self.current.prev and steps:
+            self.current = self.current.prev
+            steps -= 1
+        return self.current.val
         
-        return self.curr.val
 
     def forward(self, steps: int) -> str:
-        for i in range(steps):
-            if not self.curr.next:
-                break
-            self.curr = self.curr.next
+        while self.current.next and steps:
+            self.current = self.current.next
+            steps -= 1
+        return self.current.val
         
-        return self.curr.val
 
 
 # Your BrowserHistory object will be instantiated and called as such:
