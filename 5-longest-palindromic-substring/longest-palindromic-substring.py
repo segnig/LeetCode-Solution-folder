@@ -1,36 +1,20 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         result = ""
+
         for i in range(len(s)):
-            local = ""
-            left = i
-            right = i
-            while left > -1 and right < len(s):
-                
-                if s[left] !=  s[right]:
-                    break
-                if right == left:
-                    local=s[left]
-                else:
-                    local = s[left]+local+s[right]
-                if len(local)>len(result):
-                    result = local
-                left-=1
-                right += 1
-        for i in range(len(s)):
-            left = i
-            right = i+1
-            local = ""
-            left = i
-            while left > -1 and right < len(s):
-                if s[left] !=  s[right]:
-                    break
-                if right == left:
-                    local=s[left]
-                else:
-                    local = s[left]+local+s[right]
-                if len(local)>len(result):
-                    result = local
-                left-=1
-                right += 1
+            odd = self.helper(s, i, i)
+            if len(odd) > len(result):
+                result = odd
+            even = self.helper(s, i, i+1)
+            if len(even) > len(result):
+                result = even
+        
         return result
+
+
+    def helper(self,word, left, right):
+        while left >= 0 and right < len(word) and word[left] == word[right]:
+            left -= 1
+            right += 1
+        return word[left+1:right]
