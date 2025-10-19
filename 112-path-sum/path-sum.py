@@ -16,11 +16,10 @@ class Solution:
             
             result = False
             if node.left:
-                left_sum  = bfs(node.left, total_sum + node.val)
-                result = result or left_sum
+                result  = result or bfs(node.left, total_sum + node.val)
             if node.right:
-                right_sum  = bfs(node.right, total_sum + node.val)
-                result = result or right_sum
+                result  = result or bfs(node.right, total_sum + node.val)
+                
             return result
         
         return bfs(root, 0)
