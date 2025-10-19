@@ -6,21 +6,24 @@
 #         self.right = right
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
-        levels = defaultdict(list)
-        def dfs(node, level):
+        array = defaultdict(list) # level values
 
-            if not node:
+        def bfs(node, level):
+            # base case
+            if not node: 
                 return 
-            
-            levels[level].append(node.val)
-            dfs(node.right, level + 1)
-            dfs(node.left, level + 1)
 
-        result = []
-        dfs(root, 0)
-        level = 0
-        while  level in levels:
-            result.append(levels[level][0])
-            level += 1
+            array[level - 1].append(node.val)
+            bfs(node.left, level+1)
+            bfs(node.right, level+1)
+
+        bfs(root, 1)
+
+        print(array) #  [[1], [2, 3], [5, 3, 4], [7]]
         
-        return result
+        res = []
+        for values in array.values():
+            res.append(values[-1])
+
+
+        return res 
