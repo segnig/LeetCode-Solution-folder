@@ -6,24 +6,23 @@
 #         self.right = right
 class Solution:
     def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
-        result = [None] * 100
+        result = []
         
         # dfs node, level
         def dfs(node, level):
             # node is null retrun 
-            nonlocal max_level
             if not node:
                 return
-            
+
             # if no item of that level store
-            if result[level] is None:
-                result[level] = node.val
+            if len(result) == level:
+                result.append(node.val)
+                
             # move to both right and left
-            max_level = max(max_level, level + 1)
             dfs(node.right, level + 1)
             dfs(node.left, level + 1)
         
-        max_level = 0
-        dfs(root, max_level)
-        return result[:max_level]
+        
+        dfs(root, 0)
+        return result
             
