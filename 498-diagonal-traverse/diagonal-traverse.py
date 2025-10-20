@@ -1,38 +1,29 @@
 class Solution:
     def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:
-        result = []  
-        total_elements = len(mat) * len(mat[0])  
-        row, col = 0, 0  
-
-        while len(result) < total_elements:  
-            
-            while row >= 0 and col < len(mat[0]):  
-                result.append(mat[row][col])  
-                row, col = row - 1, col + 1  
-
-              
-            if col >= len(mat[0]):  
-                col = len(mat[0]) - 1  
-                row += 2 
-
-            row = max(row, 0)   
-
-             
-            if len(result) == total_elements:  
-                return result   
-
-             
-            while row < len(mat) and col >= 0:  
-                result.append(mat[row][col])  
-                row, col = row + 1, col - 1  
-  
-            if row >= len(mat):   
-                row = len(mat) - 1  
-                col += 2   
-
-            col = max(col, 0)  
-            
-            if len(result) == total_elements:  
-                return result   
-            
-        return result  
+        if not mat or not mat[0]:
+            return []
+        
+        m, n = len(mat), len(mat[0])
+        result = []
+        
+        def traverse(row, col, direction):
+            while 0 <= row < m and 0 <= col < n:
+                result.append(mat[row][col])
+                row += direction
+                col -= direction
+        
+        for diag in range(m + n - 1):
+            if diag % 2 == 0:
+                if diag < m:
+                    row, col = diag, 0
+                else:
+                    row, col = m - 1, diag - m + 1
+                traverse(row, col, -1)
+            else:
+                if diag < n:
+                    row, col = 0, diag
+                else:
+                    row, col = diag - n + 1, n - 1
+                traverse(row, col, 1)
+        
+        return result
