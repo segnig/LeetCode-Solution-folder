@@ -5,25 +5,17 @@ class Solution:
         SOURCE = 0
         result = []
         
-        def helper(node, path):
+        def dfs(node, path):
             nonlocal result
             if node == TARGET:
-                result.append(path[::])
-            
+                result.append(path.copy())
+                return 
+
             for nb in graph[node]:
                 path.append(nb)
-                helper(nb, path)
-                path.pop()  
-        
-        helper(SOURCE, [SOURCE])
-        
+                dfs(nb, path)
+                path.pop()
+
+        dfs(SOURCE, [SOURCE])
+
         return result
-        
-        
-        
-        """
-        Target = n - 1 
-        source = 0
-        
-        """
-        
