@@ -1,15 +1,9 @@
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
+        store = set(nums)
         result = []
-
-        for i in range(len(nums)):
-            while nums[i] != i + 1:
-                correct_position = nums[i] - 1
-                if nums[i] == nums[correct_position]:
-                    break
-                nums[i], nums[correct_position] = nums[correct_position], nums[i]
-
-        for i in range(len(nums)):
-            if nums[i] != i + 1:
-                result.append(i + 1)
+        for i in range(1, len(nums) + 1):
+            if i not in store:
+                result.append(i)
+        
         return result
