@@ -28,10 +28,10 @@ class Solution:
                     elif transaction[j][0] - time > 60:
                         break
         
-        result = []
+        RES = []
 
         for i in range(len(transactions)):
             if i in invalid_transactions:
-                result.append(transactions[i])
+                RES.append(transactions[i])
 
-        return result
+        return RES
