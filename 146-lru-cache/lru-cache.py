@@ -1,61 +1,93 @@
 class Node:
-    def __init__(self, val=-1):
+    def __init__(self, key, val=0):
+        self.key = key
         self.val = val
-        self.next = None 
+        self.next = None
         self.prev = None
-        
+
+
 class LRUCache:
+
     def __init__(self, capacity: int):
-        self.head = Node()
-        self.tail = Node()
+        self.capacity = capacity
+        self.key_nodes = {}
+        self.elements = {}
+
+        self.head = Node(0)
+        self.tail = Node(0)
+
         self.head.next = self.tail
         self.tail.prev = self.head
-        
-        self.elements = {}
-        self.nodes = {}
-        self.capacity = capacity
+
+
 
     def get(self, key: int) -> int:
-        if key not in self.elements:
+        if key not in self.key_nodes:
             return -1
         
-        node = self.nodes[key]
+        node = self.key_nodes[key]
+
         node.prev.next = node.next
         node.next.prev = node.prev
+
+        last_node = self.tail.prev
+        last_node.next = node
+        node.prev = last_node
         
+        node.next = self.tail
+        self.tail.prev = node
+
+        self.key_nodes[key] = node
+
+        return self.key_nodes[key].val
         
-        new_node = Node(node.val)
-        self.tail.prev.next = new_node
-        new_node.next = self.tail
-        new_node.prev = self.tail.prev
-        self.tail.prev = new_node
-        
-        self.nodes[key] = new_node
-          
-        return self.elements[key]
 
     def put(self, key: int, value: int) -> None:
-        if key in self.elements:
-            self.elements[key] = value
-            node = self.nodes[key]
-            node.prev.next = node.next
+        if key in self.key_nodes:
+            
+            node = self.key_nodes[key]
             node.next.prev = node.prev
-            self.nodes.pop(node.val)
-            
-        else:
-            if self.capacity == len(self.elements):
-                to_be_deleted = self.head.next
-                to_be_deleted.prev.next = to_be_deleted.next
-                to_be_deleted.next.prev = to_be_deleted.prev
-                
-                self.elements.pop(to_be_deleted.val)
-            
-            self.elements[key] = value
-             
-        new_node = Node(key)
-        self.tail.prev.next = new_node
-        new_node.next = self.tail
-        new_node.prev = self.tail.prev
-        self.tail.prev = new_node
+            node.prev.next = node.next
+
+            node.val = value
+
+            last_node = self.tail.prev
+            last_node.next = node
+            node.prev = last_node
+
+            node.next = self.tail
+            self.tail.prev = node
+
+            self.key_nodes[key] = node
+            return 
+
+
+
+        if len(self.key_nodes) == self.capacity:
+            to_delete = self.head.next
+
+            self.head.next = self.head.next.next
+            to_delete.next.prev = self.head
+
+            del self.key_nodes[to_delete.key]
+
+        node = Node(key, value)
         
-        self.nodes[key] = new_node
+        last_node = self.tail.prev
+        last_node.next = node
+        node.prev = last_node
+
+        node.next = self.tail
+        self.tail.prev = node
+
+        self.key_nodes[key] = node
+        return 
+
+
+        
+
+
+# Your LRUCache object will be instantiated and called as such:
+# obj = LRUCache(capacity)
+# param_1 = obj.get(key)
+# obj.put(key,value)
