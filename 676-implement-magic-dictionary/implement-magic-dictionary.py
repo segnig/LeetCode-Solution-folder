@@ -7,8 +7,6 @@ class MagicDictionary:
         for word in dictionary:
             length = len(word)
             self.store[length].append(word)
-        
-        
 
     def search(self, searchWord: str) -> bool:
         candidate_words = self.store[len(searchWord)]
