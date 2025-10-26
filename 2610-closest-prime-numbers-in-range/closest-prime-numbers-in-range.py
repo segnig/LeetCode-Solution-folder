@@ -4,7 +4,7 @@ class Solution:
         is_prime = [True] * (right + 1)
         is_prime[0], is_prime[1] = False, False
 
-        for i in range(2, right +1):
+        for i in range(2, int(right** 0.5 )+1):
             if is_prime[i]:
                 for j in range(i*i, right + 1, i):
                     is_prime[j] = False
