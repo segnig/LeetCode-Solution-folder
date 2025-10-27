@@ -22,4 +22,8 @@ class Solution:
             memo[start] = sentences
             return sentences
 
-        return dp(0)
+        result = dp(0)
+
+        print(memo)
+
+        return result
