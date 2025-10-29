@@ -29,5 +29,4 @@ class Solution:
                 right = mid
             else:
                 left = mid
-            print(right, left, mid)
         return left 
