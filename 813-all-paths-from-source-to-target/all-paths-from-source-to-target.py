@@ -1,21 +1,17 @@
 class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
     
-        TARGET = len(graph) - 1
         SOURCE = 0
-        result = []
-        
+        TARGET = len(graph) - 1
+        paths = []
         def dfs(node, path):
-            nonlocal result
+            nonlocal paths
             if node == TARGET:
-                result.append(path.copy())
-                return 
-
+                paths.append(path)
+            
             for nb in graph[node]:
-                path.append(nb)
-                dfs(nb, path)
-                path.pop()
+                dfs(nb, path + [nb])
+        
+        dfs(0, [0])
 
-        dfs(SOURCE, [SOURCE])
-
-        return result
+        return paths
