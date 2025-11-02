@@ -1,12 +1,22 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
     
+        # [[1,3],[2,6],[8,10],[15,18]]
+        # [1, 6], [8, 10], [15, 18]]
+
+        # sort intervals
+
+        # move over every interval and check we can merge or not 
+
         intervals.sort()
 
-        result = []
+        merged_intervals = []
+
         for start, end in intervals:
-            if result and result[-1][1] >= start:
-                result[-1][1] = max(result[-1][1], end)
+            if merged_intervals and merged_intervals[-1][1] >= start:
+                merged_intervals[-1][1] = max(end, merged_intervals[-1][1])
             else:
-                result.append([start, end])
-        return result
+                merged_intervals.append([start, end])
+        
+        # return the merged_intervals
+        return merged_intervals
