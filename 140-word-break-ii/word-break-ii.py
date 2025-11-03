@@ -1,6 +1,6 @@
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
-        word_set = set(wordDict)
+        wordDict = set(wordDict)
         memo = {}
 
         def dp(start):
@@ -15,7 +15,7 @@ class Solution:
             for end in range(start+1, len(s)+1):
                 word = s[start:end]
 
-                if word in word_set:
+                if word in wordDict:
                     for sub in dp(end):
                         sentences.append(word + (" " + sub if sub else ""))
             
