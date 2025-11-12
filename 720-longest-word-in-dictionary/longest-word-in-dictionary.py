@@ -35,7 +35,6 @@ class Solution:
     def longestWord(self, words: List[str]) -> str:
         dc = Dictionary()
         words.sort()
-        words.sort(key=len)
         for word in words:
             dc.insert(word)
         return dc.result
