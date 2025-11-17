@@ -8,7 +8,6 @@ class Solution:
             for col in range(1, len (pre_mat[0])):
                 pre_mat[row][col] = mat[row-1][col-1] +  pre_mat[row][col - 1] +  pre_mat[row - 1][col] -  pre_mat[row - 1][col - 1]
 
-
         for r in range(len(mat)):
             for c in range(len(mat[0])):
                 c1, r1 = max(0, c - k), max(0, r - k)
