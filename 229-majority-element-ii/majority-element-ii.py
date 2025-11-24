@@ -1,11 +1,14 @@
-class Solution(object):
-    def majorityElement(self, nums):
-        threshold = ceil(len(nums) / 3)
-        counter_nums = Counter(nums)
+class Solution:
+    def majorityElement(self, nums: List[int]) -> List[int]:
+        nums_counter = Counter(nums)
+
+        target = len(nums) / 3
+
         result = []
 
-        for num in counter_nums:
-            if counter_nums[num] > threshold:
+        for num in nums_counter:
+            if nums_counter[num] > target:
                 result.append(num)
 
+        
         return result
