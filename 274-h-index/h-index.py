@@ -3,9 +3,9 @@ class Solution:
         citations.sort(reverse=True)
         h = 0
 
-        for i, cite in enumerate(citations):
-            if cite >= i + 1:
-                h = i + 1
+        for index, cite in enumerate(citations):
+            if cite >= index + 1:
+                h = index + 1
 
             else: return h  
         return h
