@@ -1,12 +1,14 @@
-class Solution(object):
-    def plusOne(self, digits):
-        result = []
-        remainder = 1
-        for n in digits[::-1]:
-            res = n + remainder
-            remainder = res // 10
-            result.append(res % 10)
-        if remainder:
-            result.append(remainder)
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        digits = [0] + digits
 
-        return result[::-1]
+        remain = 1
+        index = len(digits) - 1
+        while remain > 0:
+            sum = digits[index] + remain
+            digits[index] = sum % 10
+            remain = sum // 10
+
+            index -= 1
+        
+        return digits if digits[0] != 0 else digits[1:]
