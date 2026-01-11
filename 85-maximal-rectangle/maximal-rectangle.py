@@ -2,7 +2,6 @@ class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
         matsum = [[0]*( len(matrix[0])) for i in range(len(matrix))]
         T = True
-        gg = 0
         for i in range(len(matrix)):
             for j in range(len(matrix[0])):
                 if matrix[i][j] == "1" and T and j > 0:
@@ -11,7 +10,6 @@ class Solution:
                     matsum[i][j] = 1
                 else:
                     matsum[i][j] = 0
-                
         ans = 0
         for i in range(len(matrix)):
             for j in range(len(matrix[0])):
