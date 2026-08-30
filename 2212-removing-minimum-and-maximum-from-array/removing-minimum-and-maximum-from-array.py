@@ -28,7 +28,5 @@ class Solution:
                 result += max_index + 1 + min(min_index - max_index, length - min_index)
             else:
                 result += length - max_index + min(min_index + 1, max_index - min_index)   
-        
-        print(first_turn_is_min_num)
-
+                
         return result
